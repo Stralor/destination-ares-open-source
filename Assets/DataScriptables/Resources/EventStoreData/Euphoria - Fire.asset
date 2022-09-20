@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Euphoria - Fire
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements:
+  - {fileID: 11400000, guid: 73d6012b8b78f9745878546d76530d6b, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: 'Fire!
+
+
+    An errant spark from a damaged system caused an entire section of the ship to
+    blast into an inferno.
+
+
+    It burned furiously, but choked itself out quickly. Most of the damage was to
+    electrical systems and wiring.
+
+
+    There''s inadvertent good news. The oxygen is back down to nominal levels, and
+    the startled crew got away with a only few minor burns.'
+  effects:
+  - {fileID: 11400000, guid: 651df81f5141a3d4883e2efa82bb2130, type: 2}
+  - {fileID: 11400000, guid: e3f242c31488c934d996157c65a08957, type: 2}
+  - {fileID: 11400000, guid: e77a92a8fb4f6ca459c506b80d3bf2d1, type: 2}
+  - {fileID: 11400000, guid: c9fd29bb9d0122a4cbe8f4bc4e2bfafc, type: 2}
+  - {fileID: 11400000, guid: c9fd29bb9d0122a4cbe8f4bc4e2bfafc, type: 2}
+  - {fileID: 11400000, guid: c9fd29bb9d0122a4cbe8f4bc4e2bfafc, type: 2}
+  - {fileID: 11400000, guid: 2b6a4289f1b9e3340a86b4b8ec4c24b5, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

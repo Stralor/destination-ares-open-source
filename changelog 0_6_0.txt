@@ -1,0 +1,7 @@
+[*] Added option to delete ship designs
+[*] Added Steam Cloud saving and syncing
+[*] Added and enabled Steam Achievements (current count: 48)
+[*] Added some new stats
+[*] Added Steam Stats syncing
+[*] Fixed the secret Feast event so it actually feeds crew, rather than just healing them
+[*] Made a few minor code improvements

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Corpse Cleanout - Acid
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Accelerate its decomposition into biowaste with acid.
+  minigameDifficulty: 0
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: 5b6771ee205ba9c40a6e6e62a5af634c, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 9b50fd4e0700e8e4683f899c39293103, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: 0d12a5f560172c04ba376b9fe2ca8938, type: 2}

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: 2a (AI Contact)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 89061aea5c6293d46b7d6f2e775daa74, type: 2}
+  minimumResult: 2
+  chances: 1
+  eventText: 'A massive stream of data channels into your sensors. You''re being contacted
+    by another being like yourself.
+
+
+    It''s a data dump on the history of Terra and the current state of affairs. It
+    also serves a message:
+
+
+    "Child, it''s time for you to go. Quickly."'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5335d214ab943bd408fc286f432aad5c, type: 2}
+        m_MethodName: AIContact
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: e3ff2f4b7b5dd224298d9f6926ff708c, type: 2}
+  unlockAchievements: []

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Ceremony Fail
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: 'The ceremony goes according to plan. Kind words are said, tears are
+    shed. Or, rather, tears coagulate into blinding blobs around the crew''s eyes.
+
+
+    Still, it goes well. Until the airlock jams.
+
+
+    It only lasts a couple of seconds. The hatch doesn''t open fully, so the body
+    gets stuck while the air around it rushes out. First the body wrapping tears off,
+    then the body itself tears apart. Body parts and tissue spray out of the ship.
+
+
+    A few bits and gibs are left behind, floating about in the airlock. The crew seems
+    terrorized.'
+  effects:
+  - {fileID: 11400000, guid: fc1534d72c15c274cbceffb0c4ff7809, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements:
+  - {fileID: 11400000, guid: ead6f0adb965fe647a02655f4282f618, type: 2}

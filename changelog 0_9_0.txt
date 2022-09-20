@@ -1,0 +1,23 @@
+Beginner Experience Overhaul
+[*] Introducing your new frenemy: Guide Bot!
+[*] Ripped out the old tutorial
+[*] Fused together a second beginner ship: the Gerridae
+[*] Crafted a better (and more visible) explanation of the minigame
+
+New Content
+[*] Fuel Line Pressure event
+[*] "Viking Funeral" Achievement
+[*] Game Over events
+
+Polish
+[*] Slight gradient overlay
+[*] Ship naming input now has a red backdrop to match other UI elements
+[*] Talking happens in words and chunks, rather than each letter
+[*] Prettified the Game Over screen
+
+Balance Changes
+[*] Radar now spends twice as much energy over time (doubled chance of burning energy)
+[*] Capped how far you can go off course
+
+Bugs
+[*] Fixed ships being unlocked when they shouldn't be

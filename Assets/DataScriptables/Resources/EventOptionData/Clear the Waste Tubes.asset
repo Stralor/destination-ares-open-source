@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Clear the Waste Tubes
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Empty the pipes into the vacuum of space.
+  minigameDifficulty: 2
+  hideIfUnavailable: 0
+  requirements: []
+  effects:
+  - {fileID: 11400000, guid: 05599b1b8e534fb49b01a64ed9a4f5cf, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: 1ba765687d56bb24a969223e7e945685, type: 2}
+  - {fileID: 11400000, guid: fc14edc774c2518429be73f0992c470f, type: 2}
+  - {fileID: 11400000, guid: 1f62569eea3dc6d4a954c9a10920a339, type: 2}

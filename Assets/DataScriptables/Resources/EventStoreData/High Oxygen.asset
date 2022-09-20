@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: High Oxygen
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements:
+  - {fileID: 11400000, guid: 6aae2664c28ad364882e255dcba9d585, type: 2}
+  - {fileID: 11400000, guid: 65e836d23587f2e40b21f1114f6860cd, type: 2}
+  minimumResult: 0
+  chances: 2
+  eventText: 'Your crew is giggling while running into walls and throwing up.
+
+
+    It seems the air is over-oxygenated. This is known to cause oxygen toxicity in
+    biological organisms. It also threatens serious fire risk, which would affect
+    you along with the crew.
+
+
+    How do you wish to handle it?'
+  effects:
+  - {fileID: 11400000, guid: 374f02451449264489009e7620d9254c, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: c310c43a69cd9244f8fb621ab599bc26, type: 2}
+  - {fileID: 11400000, guid: 5ad581f799e0901488270d58e3506e85, type: 2}
+  - {fileID: 11400000, guid: 93ec4684269f7e04c8cbad9cd6725131, type: 2}
+  unlockAchievements: []

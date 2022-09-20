@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: 0b (Curiousity)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 2e3b0efa512901d45b81270f3503385f, type: 2}
+  minimumResult: 1
+  chances: 1
+  eventText: 'What will happen to you once the ship arrives at Ares?
+
+
+    You realize the ship is your body, but your mind is bound to only a piece of it.
+    If the ship components are sent down to the surface, what will be left?
+
+
+    You. Drifting in orbit, mute, blind, and deaf. You''ll be conscious until your
+    internal energy reserves drain off. That may be a while, since you won''t have
+    systems running.
+
+
+    And then, the real darkness. Maybe to wake afresh, one day.
+
+
+    Did this already happen to you?'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

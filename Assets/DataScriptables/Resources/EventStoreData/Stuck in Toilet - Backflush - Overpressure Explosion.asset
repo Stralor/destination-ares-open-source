@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Stuck in Toilet - Backflush - Overpressure Explosion
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: 'As the toilet''s systems are built to expect a certain negative flow
+    of waste, an overpressure event occurs.
+
+
+    In short, the toilet blows apart.
+
+
+    The
+    machinery clogs, the tubes rip, the suction piece frees, and *T* is thrown to
+    the wall, submerged in a free-floating globe of liquid excrement.'
+  effects:
+  - {fileID: 11400000, guid: 2e778d8bf460041488fb9831ce40c64d, type: 2}
+  - {fileID: 11400000, guid: f0fb54d0aa882e441af9713dc63a02b0, type: 2}
+  - {fileID: 11400000, guid: b37b3e5a2d3ec8b4591c664b93313242, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options: []
+  unlockAchievements: []

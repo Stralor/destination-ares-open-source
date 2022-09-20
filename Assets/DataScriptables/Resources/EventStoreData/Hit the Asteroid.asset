@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Hit the Asteroid
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 0
+  chances: 2
+  eventText: 'Bad news. The hull is punctured and the ship has been thrown off course.
+    The crew looks a little rattled, too.
+
+
+    The good news is that a loose can of sealing foam closed the puncture before all
+    the air was sucked out to the Big Black.'
+  effects:
+  - {fileID: 11400000, guid: 2e76d1cf98f15f54b9fd2c7ee0287783, type: 2}
+  - {fileID: 11400000, guid: 10c8d67bef4bbfc4c9f3f56659fb1c4d, type: 2}
+  - {fileID: 11400000, guid: abc6a631dfa01384fa267d5fe7667ebf, type: 2}
+  - {fileID: 11400000, guid: 18fc0a93ba6e3ee479bbe55199fe31f1, type: 2}
+  - {fileID: 11400000, guid: 0c3c6680c1b8d044faaa454d2b711736, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

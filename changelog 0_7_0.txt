@@ -1,0 +1,45 @@
+?This is a huge patch.
+
+It also breaks saves.
+
+Aaaand, it also increases the game's difficulty by a fair margin. Good luck.
+
+Additions
+[*] Crew chat when you click on them
+[*] Systems turn on/ off when you click on them
+[*] Symbols and sounds when you can't turn systems on and off
+[*] Reverse pings
+[*] Tooltip for event type
+[*] Symbol next to systems to show disabled/ enabled more clearly
+[*] HUD warnings when you're at imminent risk
+[*] Loneliness stress (constant stress over time, increases as crew die, and if a crewmember is left alone)
+[*] Added death by loneliness (and an achievement for it!)
+[*] Hermit role: ignores loneliness
+[*] Replaced Interpersonal skill with Command. Command (currently) increases time available in minigame and allows occasional ignoring of AI energy costs
+[*] Added new crew speeches
+[*] Reduced chance of repeating the same speech in short succession
+
+Changes
+[*] Now right click is used to toggle the controls bar, instead of left
+[*] Current energy capacity is displayed in the resources HUD
+[*] Total energy capacity is explained in the tooltip
+[*] Revamped controls bar (both looks and functionality)
+[*] Reduced in-scene overhead by converting character speeches to data files not bound to the scene
+[*] Increased AI base energy burn rate
+[*] Reduced movement slowdown near mines in the minigame
+[*] Reduced starting time in minigame
+[*] Adjusted crew speech to match in-world lingo. It's now barely on this side of understandable, as it should be
+[*] Increased rate of system breakdown
+[*] Increased injector time per use
+[*] Increased distance to Ares by a third
+[*] Dead crew are now always beneath living crew
+[*] Updated tutorial to match new controls. I will be overhauling the whole tutorial soon, however
+
+Fixes
+[*] Broken mouse controls in minigame
+[*] Improved resolution of text in minigame
+[*] Crew no longer freezes up when they can't get to a destination (psst don't forget doors)
+[*] Crew no longer flicker between two different chat topics at once
+[*] Events will no longer stack on each other instantly
+[*] Crew colliders now move with their bodies when pulling systems to top
+[*] Doors on the two default ships have been resaved in the correct position

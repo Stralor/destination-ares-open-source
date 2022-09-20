@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Engine Blast Fire
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: 'The *T* overheats and sparks.
+
+
+    The fuel that had been sprayed out of the overpressurized pipes catches a spark,
+    cascading into a fireball roaring down the interior of the ship.
+
+
+    Smoke alarms are still blaring when the flames eventually die out. Initial diagnostics
+    show scorch marks everywhere, severe oxygen depletion, damaged systems, and likely
+    injured crew.'
+  effects:
+  - {fileID: 11400000, guid: 467e2f05189647741b73eb8044b1952f, type: 2}
+  - {fileID: 11400000, guid: 1f2e697b8a5c2d64c9c39b6d78c14fb2, type: 2}
+  - {fileID: 11400000, guid: 75136928d53f11a4d9a9557b04bab50c, type: 2}
+  - {fileID: 11400000, guid: 8b3a505d74862404fb1908920d50bb14, type: 2}
+  - {fileID: 11400000, guid: 6ea22a4d94a08104d9dfb9f220ccaab3, type: 2}
+  - {fileID: 11400000, guid: 31c4f8c82eb825b49b99b17057ecbd53, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: a24f12756b539494a91259d35e17ffb3, type: 2}
+  unlockAchievements: []

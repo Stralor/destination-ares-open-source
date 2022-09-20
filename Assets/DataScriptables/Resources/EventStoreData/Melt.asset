@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Melt
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements:
+  - {fileID: 11400000, guid: 4d005c256cbad184fb04b98fb3b293f0, type: 2}
+  - {fileID: 11400000, guid: f49f6f40172ae17499147d1c615fc69c, type: 2}
+  minimumResult: 0
+  chances: 2
+  eventText: 'Some pipes, parts, and materials melted into useless gunk while the
+    ship slowly cooled down.
+
+
+    Remember to turn systems back on.'
+  effects:
+  - {fileID: 11400000, guid: c12c2dc93c58a1e458a2fcfee10bd6f0, type: 2}
+  - {fileID: 11400000, guid: f4e4a879f3a648648a69364cb8339a2e, type: 2}
+  - {fileID: 11400000, guid: 9b50fd4e0700e8e4683f899c39293103, type: 2}
+  - {fileID: 11400000, guid: 260794a3edd61bd458cc1a4ecb562974, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

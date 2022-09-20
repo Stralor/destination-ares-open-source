@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Corpse Cleanout - Engine - Broke Pipe
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000004000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: You took the risk of not getting help breaking the body down into manageable
+    chunks. It made sense to avoid further crew trauma. But it didn't pay off, and
+    now some piping will need replacing. Luckily, the mass from the corpse offset
+    the losses to propulsion from the damage.
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options: []
+  unlockAchievements:
+  - {fileID: 11400000, guid: 8c94157e7ba76fd4f88951f09a319716, type: 2}

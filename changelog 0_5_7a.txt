@@ -1,0 +1,6 @@
+[*] Significantly reduced likelihood that crew dies from sleep deprivation
+[*] Added more crew death flavor texts
+[*] Fixed a crash from loading while stopped
+[*] Fixed refugee endings so they aren't overwritten by the tutorial
+[*] Temporarily turned off particles on the bottom controls, until Unity fixes the particle crashes (I'm hoping to redo the buttons soon, anyway)
+[*] Simplified space dust speed calculations (hopefully avoiding more such particle crashes)

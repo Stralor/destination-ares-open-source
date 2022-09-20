@@ -1,0 +1,28 @@
+[*] Added reminder for players after "Turn off everything" in the overheating event
+[*] Changed [chance] to [random] for better clarity of meaning
+[*] Changed [Inert] to [Passive] for better clarity of meaning (... "Inert" isn't a big word...)
+[*] Added "[ spacebar ]" hint next to minigame pings. Note: right-click also still works
+[*] Secret event choices are now also tagged in-line
+[*] Flipped highlight and press colors for event choices
+[*] Fuel cells now start on. Simplified rules: all large and/ or powered systems start disabled. This also means Toilets, Gyms, and others will start on.
+[*] Reduced hitboxes so you can now slide between diagonal mines more reliably
+[*] Fixed crew rotation not saving
+[*] Fixed a cause of character freezes
+[*] Changed resource tooltips so they can pop up during events
+[*] Fixed door placement being blocked by previously-placed hull art
+[*] Added and changed the parts symbol to a wrench
+[*] Reduced minigame difficulty slightly: Easy has +5 seconds (to 50), Medium has +5 seconds (to 55) and -1 mine (to max 14), Hard has -2 mines (to max 18)
+[*] Re-enabled screen shake on mine hit
+[*] Fixed closing pause menu in minigame (now resumes properly)
+[*] Prevented a possible source of minigames not ending after 0 seconds left
+[*] Colored minigame time left by result potential
+[*] Stopped clues showing up in the walls (because of pings)
+[*] Changed wording on the failure result of the [spoiler]spy[/spoiler] story event to "wind rushing out" from "wind rushing past it"
+[*] Added "Random Keyword" option to ship building. Allows toggling of automatic "Random (50%)" system bonuses
+[*] Fixed crew's death flavor being colored as survived when they died (only happens on success, and none of you have gotten that far, lbh)
+[*] Added Abandon Ship button to the game screen
+[*] Added option for simplified tooltips (reduces mechanical text). Will be default for new players
+[*] Added more colors to important sections of tooltips
+[*] Increased opacity of tooltip background
+
+-[*] Fixed door blocking crew hitboxes (again)

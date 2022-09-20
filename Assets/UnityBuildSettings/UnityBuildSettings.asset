@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5886119a5c7b34d8872ab527ca3e1b, type: 3}
+  m_Name: UnityBuildSettings
+  m_EditorClassIdentifier: 
+  _basicSettings:
+    baseBuildFolder: Builds
+    buildPath: $PLATFORM/$VERSION ($RELEASE_TYPE)
+    openFolderPostBuild: 0
+  _productParameters:
+    buildCounter: 0
+    lastGeneratedVersion: 1.1.0
+    version: 1.1.$BUILD
+    autoGenerate: 0
+  _releaseTypeList:
+    releaseTypes:
+    - typeName: Release
+      bundleIndentifier: 
+      productName: Destination Ares
+      developmentBuild: 0
+      allowDebugging: 0
+      customDefines: 
+      sceneList:
+        enabledScenes:
+        - filePath: Assets/_Scenes/Splash.unity
+        - filePath: Assets/_Scenes/Start Menu.unity
+        - filePath: Assets/_Scenes/Main.unity
+        - filePath: Assets/_Scenes/Customization.unity
+        - filePath: Assets/_Scenes/Memorial.unity
+        - filePath: Assets/_Scenes/Event Game.unity
+        - filePath: Assets/_Scenes/Manager.unity
+        - filePath: Assets/_Scenes/GameOver.unity
+        - filePath: Assets/_Scenes/Pause Menu.unity
+        - filePath: Assets/_Scenes/Unlocks.unity
+    - typeName: DevTest
+      bundleIndentifier: 
+      productName: Destination Ares
+      developmentBuild: 1
+      allowDebugging: 1
+      customDefines: 
+      sceneList:
+        enabledScenes:
+        - filePath: Assets/_Scenes/Splash.unity
+        - filePath: Assets/_Scenes/Start Menu.unity
+        - filePath: Assets/_Scenes/Main.unity
+        - filePath: Assets/_Scenes/Customization.unity
+        - filePath: Assets/_Scenes/Memorial.unity
+        - filePath: Assets/_Scenes/Event Game.unity
+        - filePath: Assets/_Scenes/Manager.unity
+        - filePath: Assets/_Scenes/GameOver.unity
+        - filePath: Assets/_Scenes/Pause Menu.unity
+        - filePath: Assets/_Scenes/Unlocks.unity
+  _platformList:
+    platforms:
+    - enabled: 0
+      distributionList:
+        distributions: []
+      architectures:
+      - target: 25
+        name: Linux Universal
+        enabled: 1
+      - target: 17
+        name: Linux x86
+        enabled: 0
+      - target: 24
+        name: Linux x64
+        enabled: 0
+      variants: []
+      platformName: Linux
+      binaryNameFormat: '{0}.x86'
+      dataDirNameFormat: '{0}_Data'
+      targetGroup: 1
+    - enabled: 0
+      distributionList:
+        distributions: []
+      architectures:
+      - target: 2
+        name: OSX Universal
+        enabled: 1
+      - target: 4
+        name: OSX Intel
+        enabled: 0
+      - target: 27
+        name: OSX Intel64
+        enabled: 0
+      variants: []
+      platformName: OSX
+      binaryNameFormat: '{0}.app'
+      dataDirNameFormat: '{0}.app/Contents'
+      targetGroup: 1
+    - enabled: 1
+      distributionList:
+        distributions:
+        - distributionName: Steam
+          enabled: 1
+        - distributionName: Itch
+          enabled: 1
+      architectures:
+      - target: 5
+        name: Windows x86
+        enabled: 0
+      - target: 19
+        name: Windows x64
+        enabled: 1
+      variants: []
+      platformName: PC
+      binaryNameFormat: '{0}.exe'
+      dataDirNameFormat: '{0}_Data'
+      targetGroup: 1
+  _projectConfigurations:
+    configSet:
+      _Buckets: ffffffff01000000ffffffff09000000ffffffffffffffff07000000ffffffffffffffffffffffffffffffffffffffff0500000008000000ffffffff0200000000000000
+      _HashCodes: 1e29f836dcc9b54f4bbe5b54510e9f592d6dfd482c66df334efeef47bf9d907e8d332070a99ccf7500000000000000000000000000000000000000000000000000000000
+      _Next: ffffffffffffffffffffffffffffffff03000000ffffffffffffffffffffffff060000000400000000000000000000000000000000000000000000000000000000000000
+      _Count: 10
+      _Version: 10
+      _FreeList: -1
+      _FreeCount: 0
+      _Keys:
+      - Release/PC/Windows x64/Steam
+      - Release/PC/Windows x64/Itch
+      - Release/PC/Windows x64
+      - Release/PC
+      - Release
+      - DevTest/PC/Windows x64/Steam
+      - DevTest/PC/Windows x64/Itch
+      - DevTest/PC/Windows x64
+      - DevTest/PC
+      - DevTest
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      _Values:
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Release/PC/Windows x64/Steam
+        - Release/PC/Windows x64/Itch
+      - enabled: 1
+        childKeys:
+        - Release/PC/Windows x64
+      - enabled: 1
+        childKeys:
+        - Release/PC
+      - enabled: 0
+        childKeys: []
+      - enabled: 0
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - DevTest/PC/Windows x64/Steam
+        - DevTest/PC/Windows x64/Itch
+      - enabled: 1
+        childKeys:
+        - DevTest/PC/Windows x64
+      - enabled: 1
+        childKeys:
+        - DevTest/PC
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+    showViewOptions: 0
+    showConfigs: 0
+    showBuildInfo: 0
+    hideDisabled: 0
+    treeView: 0
+    selectedKeyChain: DevTest/PC/Windows x64/Itch
+  _preBuildActions:
+    buildActions: []
+  _postBuildActions:
+    buildActions:
+    - {fileID: 114716417800787710}
+    - {fileID: 114918502852434066}
+    - {fileID: 114703654701979902}
+    - {fileID: 114312817114804766}
+--- !u!114 &114312817114804766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab85f23b640cc654dbcaff8ec59e443e, type: 3}
+  m_Name: ScriptRunner
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: ScriptRunner
+  note: Push to Steam
+  filter:
+    condition: 2
+    clauses:
+    - type: 3
+      comparison: 0
+      test: STEAM
+    - type: 0
+      comparison: 0
+      test: RELEASE
+  scriptPath: steamworks\sdk\tools\ContentBuilder\run_build.bat
+  scriptArguments: 
+  runInShell: 1
+--- !u!114 &114664125463916238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0f7a04940394844a505e73c3eb8cec, type: 3}
+  m_Name: ZipFileOperation
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: ZipFileOperation
+  note: 
+  filter:
+    condition: 0
+    clauses: []
+  inputPath: $BUILDPATH
+  outputPath: $BUILDPATH
+  outputFileName: $PRODUCT_NAME-$RELEASE_TYPE-$YEAR_$MONTH_$DAY.zip
+--- !u!114 &114703654701979902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7871b7f310872e1498433b59243858a1, type: 3}
+  m_Name: ChangeTextFileContents
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: ChangeTextFileContents
+  note: 
+  filter:
+    condition: 2
+    clauses:
+    - type: 3
+      comparison: 0
+      test: STEAM
+    - type: 0
+      comparison: 0
+      test: RELEASE
+  inputPath: steamworks\sdk\tools\ContentBuilder\scripts\app_553470 - Template.vdf
+  outputPath: steamworks\sdk\tools\ContentBuilder\scripts\app_553470.vdf
+  recursiveSearch: 1
+  regexToChange: '#DESC'
+  replacementText: $VERSION
+--- !u!114 &114716417800787710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d88f7d353534a4fbdeb11196057db7, type: 3}
+  m_Name: UploadItch
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: UploadItch
+  note: 
+  filter:
+    condition: 2
+    clauses:
+    - type: 0
+      comparison: 0
+      test: RELEASE
+    - type: 3
+      comparison: 0
+      test: ITCH
+  pathToButlerExe: C:\Users\micro\AppData\Roaming\itch\broth\butler\versions\15.21.0\butler.exe
+  nameOfItchUser: stralor
+  nameOfItchGame: destination-ares
+  useGeneratedBuildVersion: 1
+  showUploadProgress: 1
+  itchChannelOverride: 
+--- !u!114 &114918502852434066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54626104f6c7de94f9976e1672abc45b, type: 3}
+  m_Name: FolderOperation
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: FolderOperation
+  note: Copy to Steam content folder
+  filter:
+    condition: 2
+    clauses:
+    - type: 3
+      comparison: 0
+      test: STEAM
+    - type: 0
+      comparison: 0
+      test: RELEASE
+  inputPath: $BUILDPATH
+  outputPath: steamworks\sdk\tools\ContentBuilder\content
+  operation: 1

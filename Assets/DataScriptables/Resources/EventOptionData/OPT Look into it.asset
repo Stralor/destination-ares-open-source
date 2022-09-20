@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: OPT Look into it
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Have the crew assess the cause.
+  minigameDifficulty: 0
+  hideIfUnavailable: 0
+  requirements: []
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 69bfaa50e39f597458b05490e9cdcef1, type: 2}
+  - {fileID: 11400000, guid: 9c90fe0f8ecfcfa47a0e8ec37ff478e9, type: 2}

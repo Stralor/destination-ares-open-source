@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Engineer Patch Fail
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 0ea1344b859d5764c9dfa316e9f49829, type: 2}
+  - {fileID: 11400000, guid: b3ad2ac522b8a5241989f7be8bc3fa1d, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: '*T* waltzes into the chamber, as much as that is possible in zero gravity.
+    They approach the puncture and pull out some patch canvas.
+
+
+    Instead of immediately patching the hole, though, they decide to play with it.
+    Soon, poking it leads to a space large enough for their finger to fit.
+
+
+    "It pains, but''s so fun!"
+
+
+    And with those final words, *T* tears the hole open a bit too far. Their body
+    follows their arm as they''re ripped into the apathetic void, now only shredded
+    pieces.'
+  effects:
+  - {fileID: 11400000, guid: 7816925c56c99a540b197e00d4cbdcd1, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5335d214ab943bd408fc286f432aad5c, type: 2}
+        m_MethodName: Spaced
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 783130125f3a948469ac9b3e2aa9b741, type: 2}
+  unlockAchievements: []

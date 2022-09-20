@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Positive Pressure and Evaporation
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements:
+  - {fileID: 11400000, guid: b3ad2ac522b8a5241989f7be8bc3fa1d, type: 2}
+  minimumResult: 1
+  chances: 1
+  eventText: 'The positive pressure in the lines makes it difficult to get any sealant
+    down there.
+
+
+    It does make it easy for the sealant to go back the way it came, practically ruining
+    some storage.
+
+
+    The fuel keeps spurting about for awhile until the pressure abates. The fuel outside
+    the pipes quickly evaporates into the air, making clean-up a matter for the air
+    scrubber.'
+  effects:
+  - {fileID: 11400000, guid: 983ef2fe89ea6db4e98cc13b4df64223, type: 2}
+  - {fileID: 11400000, guid: 1f2e697b8a5c2d64c9c39b6d78c14fb2, type: 2}
+  - {fileID: 11400000, guid: 8b3a505d74862404fb1908920d50bb14, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

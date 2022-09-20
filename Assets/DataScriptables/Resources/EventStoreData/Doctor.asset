@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Doctor
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: b61d008e5392a2041965e98d89a27331, type: 2}
+  minimumResult: 2
+  chances: 1
+  eventText: 'A wealthy doctor!
+
+
+    *T* didn''t mind the constant war, the climate catastrophes, or even the blandness
+    of copious success. They missed the excitement of struggling to survive. There''s
+    no purpose where there''s no chance that the person under the knife will die.
+
+
+    Of course, finding change meant throwing money at a barely functional bucket of
+    bolts and joining a crew of terrified malcontents on a journey that would probably
+    kill them all. At least *T* might feel emotion again.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5335d214ab943bd408fc286f432aad5c, type: 2}
+        m_MethodName: GiveDoctor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 6fcd0e44c2b379f4b870273f16d1e2ff, type: 2}
+  unlockAchievements: []

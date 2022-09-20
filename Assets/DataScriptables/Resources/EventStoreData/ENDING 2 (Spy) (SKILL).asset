@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: ENDING 2 (Spy) (SKILL)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 2e3b0efa512901d45b81270f3503385f, type: 2}
+  - {fileID: 11400000, guid: 1665fad7e4f45e64f801518a94942d09, type: 2}
+  minimumResult: 2
+  chances: 1
+  eventText: '"*S*, you''re out of the Dark. Prepping for podlanding. Cold Red welcomes
+    refugees."
+
+
+    The crew shouts elatedly as the transmission comes in. Odd flailing and gyrations
+    have them spinning wildly. You stabilize orbit and they bounce off the bulkheads,
+    giggling.
+
+
+    Later during lander loading, *T* seems nervous. They wander back to the hidden
+    spy transmitter. When they get there, they send one final signal, "Orbit. Will
+    infil soon. Keep your promise and release him."
+
+
+    *T* cries.
+
+
+    (ending 3/6 - skilled)'
+  effects:
+  - {fileID: 11400000, guid: 76f079b08d9181d40b480a0483c2f155, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5335d214ab943bd408fc286f432aad5c, type: 2}
+        m_MethodName: ChangeGameResultText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Delivered a Spy
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 3a5dd8db2efe0a84c9495c42a34ba007, type: 2}
+  unlockAchievements:
+  - {fileID: 11400000, guid: 4df7250a1ad14a44cb6821b4387f1bb8, type: 2}

@@ -1,0 +1,17 @@
+[h1]Improvements[/h1]
+[*] Shortened how long it takes before the minigame tutorial turns on
+[*] Slowed minigame tutorial down
+[*] Clarified wording in minigame tutorial
+[*] Improved clickability of minigame's "Return to Ship" button
+[*] Destroyed systems are now more recognizable in their tooltips
+[*] Increased how often crew will do off-task work. Should see more idle usage and repairs, especially with jobless crew
+
+[h1]Fixed[/h1]
+[*] Fixed some special loss events getting ignored if the player resumes a run after exiting the game
+[*] Fixed a couple achievement toggles (incl The Arean Trail. Grats if you got it free), though I suspect there's something else going on here
+[*] Fixed typo in one of the Madness possibilities
+[*] Fixed a bug in event management that had weird cascading effects
+[*] Fixed Loss events getting overridden
+[*] Fixed Loss events not spawning
+[*] Made some tweaks that hopefully prevent a rare, hard-to-reproduce crash
+[*] Fixed some blank crew chatter popping up

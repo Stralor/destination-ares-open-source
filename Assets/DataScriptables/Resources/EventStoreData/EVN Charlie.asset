@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: EVN Charlie
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements:
+  - {fileID: 11400000, guid: 9b2534b5c5d9b924b843cbd941e12c3e, type: 2}
+  minimumResult: 2
+  chances: 1
+  eventText: 'Over time, the massive ball of water drifted into a remote corner of
+    the ship, pulled by the slight drafts of swirling air. The crew have come to regard
+    the blob as a curious pet. They''ll play games involving it and regularly refer
+    to it simply as "Charlie" in everyday conversation.
+
+
+    For now, Charlie seems docile enough.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements:
+  - {fileID: 11400000, guid: 56a6d77a83456a0408c81496dd45e25e, type: 2}

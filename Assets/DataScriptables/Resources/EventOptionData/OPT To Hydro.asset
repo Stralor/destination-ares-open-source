@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: OPT To Hydro
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Have a small team reroute the water to Hydroponics.
+  minigameDifficulty: 3
+  hideIfUnavailable: 1
+  requirements:
+  - {fileID: 11400000, guid: 9b2534b5c5d9b924b843cbd941e12c3e, type: 2}
+  - {fileID: 11400000, guid: ae2282229ff663e4e85ed4d1577fdbb9, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: f555fcbac9b85de4aa06fd6dc8947ee8, type: 2}
+  - {fileID: 11400000, guid: 0a1cd0220f1f2fa43a571ff88af36169, type: 2}

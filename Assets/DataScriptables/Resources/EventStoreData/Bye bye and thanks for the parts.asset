@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Bye bye and thanks for the parts
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: 'The saboteur risked the entire expedition, and then threw away their
+    own life when you caught their trail. They did leave some plans left undone, though.
+
+
+    A cache of bomb parts and materials is discovered hidden behind a bulkhead panel.
+    Those will be repurposed.'
+  effects:
+  - {fileID: 11400000, guid: d5bb51e32d4b2d245ad1f32974533e96, type: 2}
+  - {fileID: 11400000, guid: f9582645a50b68146812b8f728c76272, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

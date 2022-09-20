@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: DEFAULT
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Wait for it to hit.
+  minigameDifficulty: 0
+  hideIfUnavailable: 0
+  requirements: []
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 7ffb0af1547e5c34a960ffb4251e6d17, type: 2}
+  - {fileID: 11400000, guid: 837db8dd7c07d0348b40ef31a1dc1cd3, type: 2}
+  - {fileID: 11400000, guid: 8c79c8e0dffa8e34f9eb24152c1161a4, type: 2}

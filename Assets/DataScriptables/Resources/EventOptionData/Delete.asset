@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Delete
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Delete it.
+  minigameDifficulty: 2
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: 4adf2592a0c7aa444951fe432e6ab9f4, type: 2}
+  - {fileID: 11400000, guid: fa467b1b8b8ff484aa47df972eac32e3, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: b2dcda4ea29645e49abadba5f5c36f44, type: 2}
+  - {fileID: 11400000, guid: bc4200cc2b7411547b259b24daf4dac7, type: 2}
+  - {fileID: 11400000, guid: 5bb6d1c61a34bd246b776dce2008ac2f, type: 2}

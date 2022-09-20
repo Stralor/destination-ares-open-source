@@ -1,0 +1,53 @@
+[list]
+[h1]Metagame Progression[/h1]
+[*] Unlock content by spending advancement points
+[*] Gain advancement points from achievements
+[*] Gain advancement points from completed runs
+
+[h1]New Ships[/h1]
+[*] Caelifera, a tiny new starter ship for beginner players to learn the ropes
+[*] Mantodea, a difficult but powerful ship for veterans
+
+[h1]New Roles[/h1]
+[*] Electrician — +2 Mechanical when repairing systems that consume energy
+[*] Maimed — Reduced movement speed
+[*] Athlete — Increased movement speed, less likely to get maimed
+[*] Military — increased priority when tasking (currently locked)
+
+[h1]Balance Changes[/h1]
+[*] HUD Warnings about beds, toilets, and kitchens now better account for ignored systems
+[*] Loneliness hits unconscious crew for less. Likely harder to get a death from it now, but also more likely to result in psychotic breaks (and dying while in a psychotic state)
+[*] Nerfed total loneliness amount
+[*] Added chance to become permanently maimed when falling unconcious from an injury
+[*] Low mass ships stay on course a bit better
+[*] Added storage leak HUD warning
+[*] Helms lose a *little* less raw speed when adjusting the ship
+[*] Events now give you all their resources (even if you can't store them)
+[*] Fuel cells have 1 latent capacity (even when turned off, but not when broken), in addition to the capacity gained while turned on
+[*] Reactors' 8 latent capacity now goes away when broken
+[*] Increased driftiness of ship (go offcourse less)
+[*] Crew will take more care of their needs
+[*] Increased hunger resistance
+[*] Reduced distance to Ares
+
+[h1]Customization Options[/h1]
+[*] Personalities can now be chosen in ship building, under crew appearance
+[*] Tons more ship stats unlockable: thrust, navigation, capacity, mechanical score, science score, command score, energy production, materials prod., oxygen recycling + prod., fuel prod., food prod., waste prod., and waste recycling
+
+[h1]Fixes and Quality of Life Improvements[/h1]
+[*] Killed a crash bug that's been around since ancient times! (fk yeah!!)
+[*] Cut the opening exposition down a bunch
+[*] Unplaced objects now trashed from your hand when opening menus in ship building
+[*] In-game achievement announcements
+[*] Detrimental roles are now colored red in tooltips
+[*] Event results now tracked correctly when result tags are off
+[*] Mouse pings show regardless of wildly different scene setups
+[*] Space dust is more uniform in speed (still a little differentiated for parallax)
+[*] Camera controls more lenient and spacious
+[*] Turned off system audios in ship building (it was annoying af)
+[*] Turned base music levels down a bit
+[*] More menu fading
+[*] Added reminder on controls bar on how to lock it open
+[*] A few minor HUD & UI tweaks
+
+-[*] Reduced in-scene overhead (and increased organization) by converting events to data files not bound to the scene

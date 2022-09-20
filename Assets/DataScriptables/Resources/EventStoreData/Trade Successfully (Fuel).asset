@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Trade Successfully (Fuel)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000004000000
+  requirements: []
+  minimumResult: 1
+  chances: 1
+  eventText: 'The canister of fuel slips effortlessly into the other ship''s waiting
+    embrace. The promised supply of parts likewise arrives neatly bundled.
+
+
+    "Glad we''ll keep a burn. See you redside, *S*."'
+  effects:
+  - {fileID: 11400000, guid: 0c18833c48012a04ebfca8126e63736f, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

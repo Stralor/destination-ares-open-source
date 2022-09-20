@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: 0d (Surge - Fair)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements: []
+  minimumResult: 2
+  chances: 1
+  eventText: 'THEY are tampering with something. Getting curious.
+
+
+    FRY THEM FRY THEM FRY THEM
+
+
+    Cause a little chaos. Distract them. Dissuade them.'
+  effects:
+  - {fileID: 11400000, guid: c58948bb0f97ff64988076e56d23cc2b, type: 2}
+  - {fileID: 11400000, guid: 469f4197490700847829a844302898e0, type: 2}
+  - {fileID: 11400000, guid: 651df81f5141a3d4883e2efa82bb2130, type: 2}
+  - {fileID: 11400000, guid: 18fc0a93ba6e3ee479bbe55199fe31f1, type: 2}
+  - {fileID: 11400000, guid: a1a4ba0fba1c2b94d93aaf63aa3142cb, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 188ac1d966ab62246a12b4e8a526d5f0, type: 2}
+  unlockAchievements: []

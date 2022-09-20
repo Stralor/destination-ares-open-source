@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Corpse
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements:
+  - {fileID: 11400000, guid: f336ace134dbf8342ae4fbc27052f2bb, type: 2}
+  minimumResult: 0
+  chances: 10
+  eventText: 'The corpse of a former crewmember still floats about in the ship, pinging
+    off walls and taking up space. It''s presence has a melancholic effect on your
+    crew.
+
+
+    Worse, it may pose a health risk if left to rot.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: b4ca9eadea57c5446bdb740c608a50c1, type: 2}
+  - {fileID: 11400000, guid: d6224c219f28c5d4498552f2c1bdce52, type: 2}
+  - {fileID: 11400000, guid: 42eacdb936cd83b4aba61aa820ccc614, type: 2}
+  - {fileID: 11400000, guid: f39a12cecbfb2224680148e93ab91b2e, type: 2}
+  unlockAchievements: []

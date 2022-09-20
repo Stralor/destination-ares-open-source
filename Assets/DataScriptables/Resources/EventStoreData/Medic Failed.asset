@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Medic Failed
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: 'The medical staff fails to do much of anything other than also get sick.
+
+
+    The sickness is terrible. It leaves the whole crew worse off. On top of it all,
+    *T* suffered permanent facial disfigurement.'
+  effects:
+  - {fileID: 11400000, guid: 0e5c8d2565dea224c8a80d5ad54c2b91, type: 2}
+  - {fileID: 11400000, guid: 31c4f8c82eb825b49b99b17057ecbd53, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Boost 1
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 2
+  chances: 1
+  eventText: 'Feeding the irrational thoughts is a novel experience. It also led to
+    quite the barrage of system adjustments.
+
+
+    Somehow, you''ve gained a boost to speed out of it. Still, you better check to
+    make sure everything is working.'
+  effects:
+  - {fileID: 11400000, guid: 876c9ef3d568f07429fc75b2e9bf3360, type: 2}
+  - {fileID: 11400000, guid: 26a7ae1ff8124294ab122ca2d11a3174, type: 2}
+  - {fileID: 11400000, guid: 24a6279887f1f704da834560b7b2fe39, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements:
+  - {fileID: 11400000, guid: 52e3c100752b9f64390435cabc2248e0, type: 2}

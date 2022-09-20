@@ -1,0 +1,25 @@
+Hey you,
+
+It's been five years since DA came out, and I mean 1.0 launch, not early access, greenlight, the demo, or the years of dev.
+
+And now, I'm releasing this project's source data into the wild, under the MIT License. This represents the game as of v1.1.0, a.k.a. what's live on Steam and elsewhere today. It's raw, it's a mess, it's shipped.
+
+There's good news and bad news.
+
+The bad news is that I don't have the license to give you everything from the final project, and so I've cleaned up what I could. I might have missed something, but I've done my best to clear out everything that doesn't have a license that allows me to redistribute. Notably:
+
+- the soundtrack (<3 R Kim Shultz for his excellent work and always being patient with this tiny adventure of mine)
+- all fonts (just to be safe)
+- residual, unused prototype and placeholder graphics
+- real contracts (would be in bad taste to leave in imo)
+
+The good news is that I am a masochist and basically made 99% of everything in this project myself. The art, sfx, code, marketing materials, etc. There are some plugins, a huge engine, and a few bits and bobs here and there, but this was intentionally a project where I wanted to challenge myself to learn and do (almost) all the aspects of making games I hadn't dived into before. All of that which I made is now yours. The other little remaining bits have their own licenses attached.
+
+I made this.
+You made this?
+You made this. (Congrats!)
+
+I doubt anyone will use this as anything other than a curio, but if, one day, you do find a real use for anything here, it's not required in the license terms but please give me a shout in your credits and send me a ping (somewhere) to warm my heart and let me know.
+
+With love and agony,
+Pat Scott

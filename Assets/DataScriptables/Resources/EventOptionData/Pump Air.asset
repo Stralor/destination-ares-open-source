@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Pump Air
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Pump air into the water pipes.
+  minigameDifficulty: 2
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: d8b99499dcecbe740a1af28d6b9c589d, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 7ced52e03b5693041b263c11a664f58c, type: 2}
+  - {fileID: 11400000, guid: 343bc94b274d7c049b72e00959753949, type: 2}
+  - {fileID: 11400000, guid: 309a068955df4cc4081652768922372f, type: 2}

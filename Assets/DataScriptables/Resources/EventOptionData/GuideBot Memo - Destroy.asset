@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: GuideBot Memo - Destroy
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Destroy GuideBot with a power surge.
+  minigameDifficulty: 1
+  hideIfUnavailable: 1
+  requirements:
+  - {fileID: 11400000, guid: 6be3dc8f78af23d4ca3287c17e8da185, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 04dd0ef602f1b7e469cdaa343fe28309, type: 2}
+  - {fileID: 11400000, guid: 0698ef1c3eb16944cbb8a993856d1ce3, type: 2}

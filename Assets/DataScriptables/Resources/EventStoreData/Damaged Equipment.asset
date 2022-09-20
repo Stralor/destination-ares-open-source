@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Damaged Equipment
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: You weren't careful enough. The feces have been cleaned up, but some
+    systems took a hosing.
+  effects:
+  - {fileID: 11400000, guid: 6c42d457bfe7a9247bf2e9c2df0a1f22, type: 2}
+  - {fileID: 11400000, guid: bb41ccf8941282641bc450f858698f47, type: 2}
+  - {fileID: 11400000, guid: bb41ccf8941282641bc450f858698f47, type: 2}
+  - {fileID: 11400000, guid: bb41ccf8941282641bc450f858698f47, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

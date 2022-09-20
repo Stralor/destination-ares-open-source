@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Corpse Cleanout - Engine - Squelching
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000004000000
+  requirements: []
+  minimumResult: 1
+  chances: 1
+  eventText: The corpse gets stuck in the pipes in a couple of places. Your microphones
+    pick up squelching, tearing, and clanking sounds from behind the bulkheads. In
+    the end, it gets where it's going, though, and you get a bit of thrust out of
+    the bargain.
+  effects:
+  - {fileID: 11400000, guid: 75136928d53f11a4d9a9557b04bab50c, type: 2}
+  - {fileID: 11400000, guid: e4bef4bfacbdb604b956d009cbff6981, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options: []
+  unlockAchievements:
+  - {fileID: 11400000, guid: 8c94157e7ba76fd4f88951f09a319716, type: 2}

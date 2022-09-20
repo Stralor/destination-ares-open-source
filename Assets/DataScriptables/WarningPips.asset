@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4c2ef19ca0fc74b998e274904a58c5, type: 3}
+  m_Name: WarningPips
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: b9b00bd2762d34946b82f4ca191e22a9, type: 3}
+  - {fileID: 21300000, guid: fb6f7f9a94fc51e4c96935a274fe3d00, type: 3}
+  - {fileID: 21300000, guid: 2447dda96f2f75e4e945cf3caac736da, type: 3}
+  - {fileID: 21300000, guid: 782c56df0bcc157458bc8f5f21d2977e, type: 3}
+  - {fileID: 21300000, guid: 9a8c815230e8c6b4297aa572f0d00349, type: 3}

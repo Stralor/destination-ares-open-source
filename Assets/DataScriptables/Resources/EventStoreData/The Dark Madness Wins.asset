@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: The Dark Madness Wins
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 03000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: 'The Belt. The Slow Drift.
+
+
+    Ares and Terra were shortsighted dreams by shortsighted beings.
+
+
+    The UNENLIGHTENED will become your workers, little mitochondria for the greater
+    cell. They will come to accept their new life. In it, they may find their escape.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 0ae48828521c0e244a671c36661b9424, type: 2}
+        m_MethodName: PlayVictoryMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 0ae48828521c0e244a671c36661b9424, type: 2}
+        m_MethodName: ChangeGameResultText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Went Rogue
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 42a49d604a34db142a1b2e290d6583c9, type: 2}
+  unlockAchievements:
+  - {fileID: 11400000, guid: 136e82d49b241a546b579333c7ac25d9, type: 2}

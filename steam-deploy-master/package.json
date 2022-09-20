@@ -1,0 +1,19 @@
+{
+  "name": "steam-deploy",
+  "version": "1.0.1",
+  "description": "Command line utility and module for uploading to Steam via Steam Pipe",
+  "main": "steam-deploy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PocketwatchGames/steam-deploy.git"
+  },
+  "author": {
+    "name": "Alex Ferbrache",
+    "email": "aferbrache@pocketwatchgames.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "wrench": "^1.5.8"
+  }
+}

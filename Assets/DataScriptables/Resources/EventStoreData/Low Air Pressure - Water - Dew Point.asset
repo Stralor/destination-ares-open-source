@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Low Air Pressure - Water - Dew Point
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 0
+  chances: 2
+  eventText: 'The air gets heavy as it heats and fills. When it passes the dew point,
+    the walls slicken and thick fog blinds your sensors.
+
+
+    The crew chokes as
+    the fiery air condenses in their lungs, drowning them. The sensitive electrical
+    systems spark, as well, but are mostly fine.
+
+
+    Eventually the air cools,
+    the pressure stabilizes, and the fog begins to fade.'
+  effects:
+  - {fileID: 11400000, guid: 651df81f5141a3d4883e2efa82bb2130, type: 2}
+  - {fileID: 11400000, guid: d2d09de910ddbcd4aa6555669f73056d, type: 2}
+  - {fileID: 11400000, guid: eb2de00e3038186449e56ce3574ec44c, type: 2}
+  - {fileID: 11400000, guid: 4bb8c301a81653048978d6e1907b52da, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options: []
+  unlockAchievements: []

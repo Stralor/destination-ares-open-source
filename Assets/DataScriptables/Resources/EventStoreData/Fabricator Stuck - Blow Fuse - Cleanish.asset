@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Fabricator Stuck - Blow Fuse - Cleanish
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 1
+  chances: 1
+  eventText: In as clean of a break as could be hoped for, the *T* lurches mid-print
+    and shuts down with a thump.
+  effects:
+  - {fileID: 11400000, guid: 95a4c56674bdbe04180b60d414fd2e0d, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options: []
+  unlockAchievements: []

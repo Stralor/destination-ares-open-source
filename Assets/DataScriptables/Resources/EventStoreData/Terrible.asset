@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Terrible
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: The solar flare wreaked all kinds of damage. Systems and crew suffered
+    from it's radiation storm.
+  effects:
+  - {fileID: 11400000, guid: 1bba9ab4a11162f4d8e66a48932a0d84, type: 2}
+  - {fileID: 11400000, guid: 12240e8f2389f4a43b04979fced3faed, type: 2}
+  - {fileID: 11400000, guid: 31c4f8c82eb825b49b99b17057ecbd53, type: 2}
+  - {fileID: 11400000, guid: a1a4ba0fba1c2b94d93aaf63aa3142cb, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

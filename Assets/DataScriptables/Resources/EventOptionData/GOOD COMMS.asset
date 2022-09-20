@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: GOOD COMMS
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Prioritize crew safety.
+  minigameDifficulty: 2
+  hideIfUnavailable: 1
+  requirements:
+  - {fileID: 11400000, guid: 974deb43c5ddbd4409cc18e0e78c9396, type: 2}
+  effects:
+  - {fileID: 11400000, guid: e9dc658d06372d042be43b42ef23cddc, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: cbf8e106b4ac78d4699796c6c9366310, type: 2}
+  - {fileID: 11400000, guid: c601fb1213109a643adc68ef28d35514, type: 2}
+  - {fileID: 11400000, guid: 1307a3259c87bf342b8eadab39433c31, type: 2}

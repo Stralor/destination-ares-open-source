@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: GuideBot Memo - Destroy - Shower
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000004000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: 'It took more energy than expected, as if something resisted.
+
+
+    In
+    the end, however, GuideBot burnt up fine in a shower of sparks, leaving behind
+    a salvageable husk.'
+  effects:
+  - {fileID: 11400000, guid: 76af1a1a4898b4b42a24357b00473163, type: 2}
+  - {fileID: 11400000, guid: 0e1e48ed9e2379743bd02d8976fa5ea0, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options: []
+  unlockAchievements: []

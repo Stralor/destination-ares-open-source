@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Force Flush
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Forcibly flush the pipes with water.
+  minigameDifficulty: 1
+  hideIfUnavailable: 0
+  requirements: []
+  effects:
+  - {fileID: 11400000, guid: a74d5ee3eaadc494b89cceced90800d7, type: 2}
+  - {fileID: 11400000, guid: 260794a3edd61bd458cc1a4ecb562974, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: c47fbc141508aa9499414ac739e52e00, type: 2}
+  - {fileID: 11400000, guid: 98beb10accc5bc541a88d07bc28fa29c, type: 2}

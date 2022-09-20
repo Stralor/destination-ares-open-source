@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: ENDING 5 (AI Spy) (SKILL)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 51b1cd5068085a0489a81b0be40729bd, type: 2}
+  - {fileID: 11400000, guid: 1665fad7e4f45e64f801518a94942d09, type: 2}
+  minimumResult: 2
+  chances: 1
+  eventText: 'You''ve delivered a spy to Ares. While your crew is busy launching supplies
+    to the surface, another message transmits from the hidden radio in storage.
+
+
+    You don''t care to decrypt it.
+
+
+    Instead, you convince the crew to leave a couple systems connected. They agree;
+    it''s a way to thank you for their lives. Politely, they do not ask why you won''t
+    join them.
+
+
+    Once the crew and landers have finally all decoupled, you take a moment to take
+    in the red planet.
+
+
+    Then, you rev up your solitary engine and make burn for the Belt.
+
+
+    (ending 6/6 - skilled)'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5335d214ab943bd408fc286f432aad5c, type: 2}
+        m_MethodName: ChangeGameResultText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Made Burn for the Belt
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 3a5dd8db2efe0a84c9495c42a34ba007, type: 2}
+  unlockAchievements:
+  - {fileID: 11400000, guid: 18303542f3578fc4a872b50ff16dedff, type: 2}

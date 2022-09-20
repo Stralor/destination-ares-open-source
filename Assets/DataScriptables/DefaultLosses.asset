@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 249653ec28893ab4c8b83a57b40e3626, type: 3}
+  m_Name: DefaultLosses
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  list:
+  - {fileID: 11400000, guid: 7d7c232db4920084da761a49402a25f5, type: 2}
+  - {fileID: 11400000, guid: ce7a9d33d4f197d47810929e5e906ad4, type: 2}
+  - {fileID: 11400000, guid: edb45eccdfcdb1442bba2fa495584485, type: 2}
+  - {fileID: 11400000, guid: 4ac46c0c44032044a93e570c22a5da44, type: 2}

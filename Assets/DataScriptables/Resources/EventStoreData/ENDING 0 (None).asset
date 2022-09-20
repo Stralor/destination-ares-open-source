@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: ENDING 0 (None)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 2e3b0efa512901d45b81270f3503385f, type: 2}
+  - {fileID: 11400000, guid: 3afee94e0771aac42955b9a959b2274f, type: 2}
+  minimumResult: 1
+  chances: 1
+  eventText: 'The crew cheers. There is plenty of work left to do (and components
+    to send down to the surface) before they set foot on their new home. The first
+    order of business is contacting a fledgling colony on the surface to make plans
+    for it all.
+
+
+    The rest isn''t your problem.
+
+
+    You already yearn to be back in the Great Darkness. There''s so much more to explore.
+
+
+    Alas, you are summarily disassembled before long.
+
+
+    (ending 1/6 - simple)'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5335d214ab943bd408fc286f432aad5c, type: 2}
+        m_MethodName: ChangeGameResultText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Disassembled at Ares
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 3a5dd8db2efe0a84c9495c42a34ba007, type: 2}
+  unlockAchievements:
+  - {fileID: 11400000, guid: cd0cd6fc8e2ea784fafac8435b382edb, type: 2}

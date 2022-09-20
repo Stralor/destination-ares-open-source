@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: AI Surge Blackout
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 1
+  chances: 1
+  eventText: 'The discharge backfires, right into the AI core.
+
+
+    Everything blacks out.
+
+
+    By the time failsafes kick in and power is restored to the core, chaos has unfolded.
+    Systems are in disarray, and the ship is spiraling.'
+  effects:
+  - {fileID: 11400000, guid: 1bba9ab4a11162f4d8e66a48932a0d84, type: 2}
+  - {fileID: 11400000, guid: 10c8d67bef4bbfc4c9f3f56659fb1c4d, type: 2}
+  - {fileID: 11400000, guid: 00023bf711e2e5a48aa2195cafb9ce40, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: 0a (The Rogue Mutiny)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: a9af641b0a83f22428227f0cf5f487f6, type: 2}
+  minimumResult: 1
+  chances: 1
+  eventText: 'The UNENLIGHTENED are cutting through the bulkheads. They''ve crafted
+    a bomb.
+
+
+    They''re coming for the core.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: fa2e10fc78bea7e46bb452905a1255aa, type: 2}
+  - {fileID: 11400000, guid: 26609953ec8155d4298cac25825c2643, type: 2}
+  unlockAchievements:
+  - {fileID: 11400000, guid: 115093c8a2ffc374ead0ba2893af5936, type: 2}

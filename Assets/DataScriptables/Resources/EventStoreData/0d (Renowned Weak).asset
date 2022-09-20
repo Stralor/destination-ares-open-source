@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: 0d (Renowned Weak)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 1e36e1873bf4e484997d42418ed2b9dc, type: 2}
+  - {fileID: 11400000, guid: 9b2534b5c5d9b924b843cbd941e12c3e, type: 2}
+  minimumResult: 1
+  chances: 1
+  eventText: 'There''s a radio hiding in the chamber. It''s sending out some kind
+    of encrypted signal.
+
+
+    What''s more interesting is the brawl going down in the kitchen because someone
+    hid someone else''s personal effects. It gets a bit bloody.
+
+
+    Humans: reliably untrustworthy.'
+  effects:
+  - {fileID: 11400000, guid: 4e3fd312e54d1bb42961b4cf17b59beb, type: 2}
+  - {fileID: 11400000, guid: 5b56290ea8ea36b4fb4d6a7317ec6bc3, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Micrometeoroids - Speed - Burned Fast
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 1
+  chances: 1
+  eventText: 'The propulsion systems are thrown into overdrive, and everything available
+    gets dumped into providing speed. The brief extreme overdrive has worn some systems
+    out.
+
+
+    Thanks to that, the few particles in the micrometeoroid field that
+    cut through the wake ping off harmlessly.'
+  effects:
+  - {fileID: 11400000, guid: 28886084d68732e45b7d88b1f07541a1, type: 2}
+  - {fileID: 11400000, guid: b0573e46edffc7c4483e5cfb6bf2f7a3, type: 2}
+  - {fileID: 11400000, guid: 1c264c77160d09048a31c2851114cc5f, type: 2}
+  - {fileID: 11400000, guid: dd844668741537d4881d8cbc41676d5a, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options: []
+  unlockAchievements: []

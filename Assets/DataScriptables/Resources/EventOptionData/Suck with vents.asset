@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Suck with vents
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Suck all of the water out with the ventilation system.
+  minigameDifficulty: 1
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: 9149ca5295541ab46a55fb5e9c5d26d0, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 8e6fcbe9003fad1498f246241c07a040, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: b8925a05c61111e4a904906cf129e4bf, type: 2}
+  - {fileID: 11400000, guid: 6550c228efcc6bf4eb499c2928edb076, type: 2}
+  - {fileID: 11400000, guid: 7ced52e03b5693041b263c11a664f58c, type: 2}

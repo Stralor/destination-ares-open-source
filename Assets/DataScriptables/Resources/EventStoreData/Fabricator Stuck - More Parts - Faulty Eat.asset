@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Fabricator Stuck - More Parts - Faulty Eat
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements:
+  - {fileID: 11400000, guid: 402d14eee37ddab45aaf69f46db95c48, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: The ravenous fabricator shudders while eating random resources, unable
+    to produce parts from the most recent batch.
+  effects:
+  - {fileID: 11400000, guid: 0587680d65b83dd43ae4108f8c1476d0, type: 2}
+  - {fileID: 11400000, guid: 7e25d27ef1937e4478ad1d08f90c5c6f, type: 2}
+  - {fileID: 11400000, guid: 7e25d27ef1937e4478ad1d08f90c5c6f, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options:
+  - {fileID: 11400000, guid: e3098aec7edecae46a0b4fe521a4ff78, type: 2}
+  - {fileID: 11400000, guid: c57f61575006b6e40b83924d24efe43a, type: 2}
+  - {fileID: 11400000, guid: f2b7d6697326f604086099e57fa694bd, type: 2}
+  - {fileID: 11400000, guid: 45ba59bb017881347800e7e097a28507, type: 2}
+  unlockAchievements: []

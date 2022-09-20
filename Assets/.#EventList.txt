@@ -1,0 +1,17 @@
+< TEST "This is a test event. Please continue." damage 1.0 engine system 
+	+"How am I doing?"
+		< YES "Will this have it's own name?"
+			+"It sure will"
+			+"THIS SHOULD BE UNDER YES"	
+				<TARGET "Buried" >>			
+	+"Option 2." 
+		< YES "GARBLE GARBLE" damage oxygen 0.5; destroy system >
+	+"THIRD OPTION." 
+		<"Nested Event Text!">>
+< WHOOP "Whoop whoop whooop"
+	+ "What happens if"
+		<"I add a bunch more anonymous">
+	+ "options and events?"
+		<"Let's see.">>
+< "Does this break it?"
+	< "Nested event, no option.">>

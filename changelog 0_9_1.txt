@@ -1,0 +1,3 @@
+[*] Fixed a crash
+[*] Smoothed text chunk typing
+[*] Colorized in-event dialogue

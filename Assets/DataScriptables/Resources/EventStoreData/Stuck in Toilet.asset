@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Stuck in Toilet
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements:
+  - {fileID: 11400000, guid: fa467b1b8b8ff484aa47df972eac32e3, type: 2}
+  - {fileID: 11400000, guid: 69aca39e22b28134d92dbca46e6db62b, type: 2}
+  - {fileID: 11400000, guid: 26353ce984cb43a42bea89668fc290ca, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: Someone is stuck in the toilet. You hear their screaming through the
+    stall walls.
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options:
+  - {fileID: 11400000, guid: a52f21bf3fcedfc43900ccf971cbe714, type: 2}
+  - {fileID: 11400000, guid: bdb7ebfa276405642bca67a076e67eb3, type: 2}
+  unlockAchievements: []

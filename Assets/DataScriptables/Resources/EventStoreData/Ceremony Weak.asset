@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Ceremony Weak
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 1
+  chances: 1
+  eventText: 'The remaining crew gathers around to watch the solemn proceedings. The
+    airlock opens swiftly and the Ink sucks the body out.
+
+
+    The sanitation risk has been averted. The crew remains teary-eyed.'
+  effects:
+  - {fileID: 11400000, guid: 7590330231336764ebdf2d86fa149f22, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements:
+  - {fileID: 11400000, guid: ead6f0adb965fe647a02655f4282f618, type: 2}

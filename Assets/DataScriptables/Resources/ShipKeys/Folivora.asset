@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940571b0a3cb65f4eb1c47d60c7b8e1f, type: 3}
+  m_Name: Folivora
+  m_EditorClassIdentifier: 
+  shipFileName: Folivora
+  requiredKey: {fileID: 11400000, guid: 00bd34f3b0d506841b740514889ffc6a, type: 2}
+  showWhenLocked: 1
+  customLockText: 

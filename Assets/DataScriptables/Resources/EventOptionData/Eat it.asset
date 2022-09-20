@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Eat it
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Shove it in the food processor.
+  minigameDifficulty: 3
+  hideIfUnavailable: 1
+  requirements:
+  - {fileID: 11400000, guid: 5bec416f317dd4e4ba6732c59a331a8d, type: 2}
+  - {fileID: 11400000, guid: fa467b1b8b8ff484aa47df972eac32e3, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: e0e552e12119f784a98d9836befa162a, type: 2}
+  - {fileID: 11400000, guid: 1f9ae5e7930956d4c9df63c568a74084, type: 2}
+  - {fileID: 11400000, guid: 8f235447d6853ef4c939f5d6ccd0f9be, type: 2}

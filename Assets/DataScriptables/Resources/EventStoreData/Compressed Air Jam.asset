@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Compressed Air Jam
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 1
+  chances: 1
+  eventText: 'No gas gets pumped out.
+
+
+    The valves on the compressed air tanks are unresponsive. They may be jammed, the
+    signal line might be cut, or perhaps the tanks were already emptied by the scrubber
+    system at some point.
+
+
+    Whatever the reason, it doesn''t matter. There''s still a borderline risky amount
+    of oxygen in the air mix, but it''s fallen enough for now.'
+  effects:
+  - {fileID: 11400000, guid: e77a92a8fb4f6ca459c506b80d3bf2d1, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Electrical Surge
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements:
+  - {fileID: 11400000, guid: 65e836d23587f2e40b21f1114f6860cd, type: 2}
+  - {fileID: 11400000, guid: 58dd5931afaf2ce439a92b6e6e19979b, type: 2}
+  minimumResult: 0
+  chances: 2
+  eventText: Small voltage spikes are going off around the ship. Between high load
+    and probable faults in the slipshod grid, a big surge is due.
+  effects:
+  - {fileID: 11400000, guid: 76af1a1a4898b4b42a24357b00473163, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 728ca41550753d04fb31e8c595f17939, type: 2}
+  - {fileID: 11400000, guid: 3919fc5201ded164db9e15e8db434020, type: 2}
+  - {fileID: 11400000, guid: fccecf325f9f89e44b29086472b60889, type: 2}
+  unlockAchievements: []

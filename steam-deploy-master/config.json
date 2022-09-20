@@ -1,0 +1,38 @@
+{
+  "steamworks_sdk_path": "C:/Program Files/steamworks_sdk_138a/sdk",
+ 
+ "steamworks_username": "pennysoldiers",
+ 
+ "steamworks_password": "--",
+ 
+ "steamworks_appid": 553470,
+
+ 
+ "relative_buildoutput_dir": "output",
+ 
+ "relative_contentroot_dir": "content",
+ 
+ "steamcmd_executable": "builder/steamcmd.exe",
+ 
+ "autobuild_vdf_file": "scripts/bot.vdf",
+
+ 
+ "project_root": "C:\Users\Fengshua\Documents\Creative Projects\Games\steamworks_sdk_138a\sdk\tools\ContentBuilder\content",
+
+ 
+ "builds": [
+ 
+   {
+ 
+     "name": "Destination Ares",
+ 
+     "depot_id": "553471", 
+     "vdf_filename": "app_build_553470.vdf", 
+     "relative_build_dir": "", 
+     "exclude_pattern": ".*.pdb"
+ 
+   }
+
+  ]
+
+}

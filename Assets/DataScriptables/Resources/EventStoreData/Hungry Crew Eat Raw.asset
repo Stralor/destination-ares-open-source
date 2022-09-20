@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Hungry Crew Eat Raw
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements:
+  - {fileID: 11400000, guid: d42bd1bd3ff03f14384f432ca4a0fd46, type: 2}
+  - {fileID: 11400000, guid: 03c77f340ffbc8945b0be23699c61d46, type: 2}
+  - {fileID: 11400000, guid: fa467b1b8b8ff484aa47df972eac32e3, type: 2}
+  minimumResult: 0
+  chances: 2
+  eventText: The crew is requesting access to raw food. They need to eat, even if
+    it's not possible to cook at a kitchen right now.
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 2b57b13311d31324f8327c9137550121, type: 2}
+  - {fileID: 11400000, guid: 309a9e8e9f0a6544780773ab37b3c427, type: 2}
+  unlockAchievements: []

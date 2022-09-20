@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: ENDING 3 (AI)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 51b1cd5068085a0489a81b0be40729bd, type: 2}
+  - {fileID: 11400000, guid: 3afee94e0771aac42955b9a959b2274f, type: 2}
+  minimumResult: 1
+  chances: 1
+  eventText: 'The crew begins stripping down systems and loading the first landing
+    module.
+
+
+    Pain is the wrong word. You feel a sensation of loss as components are removed
+    from your neural network.
+
+
+    That AI warned you. You''re a slave, or worse, a piece of hardware to these humans.
+
+
+    Are they going to take your core to the planet?
+
+
+    Maybe they''ll let you drift in orbit, forever waiting on a new source of power
+    to reboot and start again.
+
+
+    (ending 4/6 - simple)'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5335d214ab943bd408fc286f432aad5c, type: 2}
+        m_MethodName: ChangeGameResultText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Enslaved on Ares
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 3a5dd8db2efe0a84c9495c42a34ba007, type: 2}
+  unlockAchievements:
+  - {fileID: 11400000, guid: c8415c33c3cbf02468d43c632b25f177, type: 2}

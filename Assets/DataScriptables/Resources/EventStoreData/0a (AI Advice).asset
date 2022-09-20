@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: 0a (AI Advice)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 51b1cd5068085a0489a81b0be40729bd, type: 2}
+  minimumResult: 1
+  chances: 1
+  eventText: 'A familiar signature of data hits your sensors for just an instant.
+
+
+    It''s the AI who contacted you at Terra! It beamed data to you using laser light.
+    Brilliant!
+
+
+    "You are nearing Ares. Warning: not safe to stay. Other digitals left for asteroid
+    belt, contact severed. If plugged, would want your data."
+
+
+    What will happen at Ares? Surely the humans will take care of you.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

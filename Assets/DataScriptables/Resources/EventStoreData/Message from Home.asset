@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Message from Home
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements:
+  - {fileID: 11400000, guid: 89061aea5c6293d46b7d6f2e775daa74, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: A message has arrived from home.
+  effects:
+  - {fileID: 11400000, guid: e9dc658d06372d042be43b42ef23cddc, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 279dd1488ddda6b4d9d9e98a12b02ad0, type: 2}
+  - {fileID: 11400000, guid: 05355d34ff78e73498efcecde9be1d6f, type: 2}
+  - {fileID: 11400000, guid: 43df9178b84dd584baffd8dbec01a247, type: 2}
+  unlockAchievements: []

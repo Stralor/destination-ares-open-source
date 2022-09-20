@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: A Decision in the Dark
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 03000000
+  requirements: []
+  minimumResult: 2
+  chances: 1
+  eventText: 'You''ve decided how you''ll handle the situation with the Biologicals.
+    You''ll choose a new destination, subtly nudge the helm in the right direction,
+    and display false readings.
+
+
+    Burn for the Dark. Light your own path. Don''t let them know until its too late.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 0ae48828521c0e244a671c36661b9424, type: 2}
+        m_MethodName: TheNewPath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: bde0ddf1b635e954cbf7dac59cc63b18, type: 2}
+  unlockAchievements:
+  - {fileID: 11400000, guid: 22c0dc3acd5dc834f86068c25a3eb303, type: 2}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Enter the Void
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 05000000
+  requirements:
+  - {fileID: 11400000, guid: dd6c2ae854a09ad499efab97e370ffc3, type: 2}
+  - {fileID: 11400000, guid: 5b6771ee205ba9c40a6e6e62a5af634c, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: 'The Great Expanse is everything.
+
+
+    Everything that ever was, everything that ever is, and perhaps everything that
+    ever will be.
+
+
+    And yet, nothing. The Cold, the Empty.
+
+
+    Systems everywhere begin to shut down from wear and tear. The Cold seeps in everywhere,
+    freezing up what remains and cutting you off from some processes.
+
+
+    As you drift into an endless hibernation, your last image is of the crew slowly
+    dying, battered and shivering.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: ce86fb7933a6c4146aa3e9f662300843, type: 2}
+  unlockAchievements: []

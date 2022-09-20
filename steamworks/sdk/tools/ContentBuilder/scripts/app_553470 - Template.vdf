@@ -1,0 +1,14 @@
+"appbuild"
+{
+	"appid" "553470"
+	"desc" "v#DESC"
+	"buildoutput" "C:\Users\Fengshua\Documents\Creative Projects\Games\steamworks_sdk_138a\sdk\tools\ContentBuilder\output"
+	"contentroot" ""
+	"setlive" ""
+	"preview" "0"
+	"local"	""
+	"depots"
+	{
+		"553471"	"C:\Users\Fengshua\Documents\Creative Projects\Games\steamworks_sdk_138a\sdk\tools\ContentBuilder\scripts\depot_553471.vdf"
+	}
+}

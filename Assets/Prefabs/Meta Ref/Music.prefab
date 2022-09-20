@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &182094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 459300}
+  - component: {fileID: 11495694}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459300
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11495694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f283083026935478180ea1fd9b2408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  opening: {fileID: 8300000, guid: 1b3ec9e5e97e5144494664d6a3d0f64f, type: 3}
+  theme: {fileID: 8300000, guid: 1b3ec9e5e97e5144494664d6a3d0f64f, type: 3}
+  setup: {fileID: 8300000, guid: e83b8fd2b9e13d3499b6c21ebfb8ba8a, type: 3}
+  journey0: {fileID: 8300000, guid: b0b6e1ac05eec6b47ab058dc1a4bbc2c, type: 3}
+  journey0amb: {fileID: 8300000, guid: 756d8808228d8e44a8e1236266fde176, type: 3}
+  journey1: {fileID: 8300000, guid: 413bac822373b5f4888ba9199c2be25b, type: 3}
+  journey1amb: {fileID: 8300000, guid: 6be336e93db406b489515e4373bbbf25, type: 3}
+  journey2: {fileID: 8300000, guid: 2177e8ad30e916045b8cf920224cab5b, type: 3}
+  journey2amb: {fileID: 8300000, guid: 16b16f6abac77f541971fdf1603a5332, type: 3}
+  journey3: {fileID: 8300000, guid: 6491a62133cabda4fa9237b74dc57546, type: 3}
+  journey3amb: {fileID: 8300000, guid: 0be3fb63bb26d854ebce9c2e886e09de, type: 3}
+  victory: {fileID: 8300000, guid: 6e076a879ee08d6438f37057e62f8773, type: 3}
+  defeat: {fileID: 8300000, guid: a100bec790dd87a4cbf652db937027f4, type: 3}
+  eventStandard: {fileID: 8300000, guid: 60d0d3bd96cf91e408aef2ef8d0651e3, type: 3}
+  eventStory: {fileID: 8300000, guid: b5f3e8c20d54f8e418baaff0cb9b10e9, type: 3}
+  eventHelpful: {fileID: 8300000, guid: 6c7587b59f04da141b838df83bbb75ec, type: 3}
+  extras:
+  - {fileID: 8300000, guid: bbdb588bdbf389446a8b26681f4a2df2, type: 3}
+  - {fileID: 8300000, guid: 2755affe264b23a45ae166cd6fb3eda8, type: 3}
+  musicPlayer: {fileID: 0}
+  musicSourceVolume: 0.1
+  playlist: []
+  interruptedPlaylist: []
+  allMusicPlayers: []
+  realTimeSinceLastSong: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 182094}
+  m_IsPrefabParent: 1

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c6ccc4bc645e847bdb113875e55d40, type: 3}
+  m_Name: Chatty-Tired
+  m_EditorClassIdentifier: 
+  personalities: 01000000
+  triggers: 08000000
+  text: I haven't been this laid out since that one time I stayed up for rots and
+    rots. It's truly a mesmered story. I'll have to get you keen'd on it some time.

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Seal
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Fill the wall with sealant.
+  minigameDifficulty: 2
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: f49f6f40172ae17499147d1c615fc69c, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 58c568455b30ae74694cd447b59e978f, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: e92fd48d00acd464c806a5ab6d0e12de, type: 2}
+  - {fileID: 11400000, guid: 066b7887dba0b4d42b016dd832977384, type: 2}
+  - {fileID: 11400000, guid: 05b3c120132a5eb4e8b61d3bf202fd4d, type: 2}

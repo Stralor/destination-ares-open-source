@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &192252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 497536}
+  - component: {fileID: 11435908}
+  m_Layer: 0
+  m_Name: AudioClipOrganizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497536
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11435908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebdf2207fe98f804a8eb4d157cc33b13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beep:
+  - {fileID: 8300000, guid: ca4f5f1b48b489a409be6be9436314e3, type: 3}
+  warn:
+  - {fileID: 8300000, guid: b69a7424138927b47be80eafba56447a, type: 3}
+  voices:
+  - {fileID: 8300000, guid: 901652fd9d8bfa2448832a4a882ac078, type: 3}
+  - {fileID: 8300000, guid: eeaa391f698429f47be0433c96bdb20e, type: 3}
+  talk:
+  - {fileID: 8300000, guid: eeaa391f698429f47be0433c96bdb20e, type: 3}
+  ambient:
+  - {fileID: 8300000, guid: 9e5d2cbe4a7ebeb43a5269f6be6cfba7, type: 3}
+  eventStart:
+  - {fileID: 8300000, guid: d093696d6f0208542814a7ad6413017f, type: 3}
+  emergencyAlert:
+  - {fileID: 8300000, guid: 91a7ea2e8439a3848b65a3f4f935556e, type: 3}
+  warningAlert:
+  - {fileID: 8300000, guid: 8a8a33fe18ef50f459f5e7e1e268cc22, type: 3}
+  useAlert:
+  - {fileID: 8300000, guid: b55671e8d469ec649a2abd428649add6, type: 3}
+  click:
+  - {fileID: 8300000, guid: 66aa149a10c748c4e9534f1794037295, type: 3}
+  pop:
+  - {fileID: 8300000, guid: aca1755861635504596339b3f6ee57f1, type: 3}
+  transmission:
+  - {fileID: 8300000, guid: 958d1bded1ecc4745835c465c74175e5, type: 3}
+  construct:
+  - {fileID: 8300000, guid: e7c3479c8f8d7774cbb092cf52c4586b, type: 3}
+  repair:
+  - {fileID: 8300000, guid: 729edd0fa72ea25419cbeabf80da91fb, type: 3}
+  heal:
+  - {fileID: 8300000, guid: 441edf5341d425e458fb9f219bf5802d, type: 3}
+  hurt:
+  - {fileID: 8300000, guid: 87d2bc9891175044db9c4b923ac4cf6d, type: 3}
+  kickOff:
+  - {fileID: 8300000, guid: ce40325dcf824bb4285341648393fbab, type: 3}
+  succeed:
+  - {fileID: 8300000, guid: 441edf5341d425e458fb9f219bf5802d, type: 3}
+  fail:
+  - {fileID: 8300000, guid: 8177cded1a99afc43ad85e0660fbd186, type: 3}
+  qualityUp:
+  - {fileID: 8300000, guid: 4bd90bb5b48d3964ca54ecc98e7222f7, type: 3}
+  qualityDown:
+  - {fileID: 8300000, guid: 2a6499d362693b2448ad7671cfce3c39, type: 3}
+  hover:
+  - {fileID: 8300000, guid: af88c6c7d3ec5cf40a625e0427b7a68c, type: 3}
+  hoverEnd: []
+  press:
+  - {fileID: 8300000, guid: 2de11a33fce610c499057c82834967e9, type: 3}
+  invalid:
+  - {fileID: 8300000, guid: 4c9c9cc7be3a1784dbc00127d55921ab, type: 3}
+  death:
+  - {fileID: 8300000, guid: 8f4ab6212470290409fc2e8e2343ba30, type: 3}
+  systemBreak:
+  - {fileID: 8300000, guid: c7d9ce90c9354a6458e66205f185c4c3, type: 3}
+  electrolyser:
+  - {fileID: 8300000, guid: 14d9b62d62edb9444accbb6e53f1dcfc, type: 3}
+  engine:
+  - {fileID: 8300000, guid: db38c5541407fcf45b4a313a24411c5f, type: 3}
+  generator:
+  - {fileID: 8300000, guid: 7b030ee958a55e346956dce817722a82, type: 3}
+  gym: []
+  helm:
+  - {fileID: 8300000, guid: 382968228b9fba04eb0924daf5d6934b, type: 3}
+  hydroponics:
+  - {fileID: 8300000, guid: a5cf9e4b595cf4743a3854a3e0b29969, type: 3}
+  radar:
+  - {fileID: 8300000, guid: 554eac47701b6e54ba484d9804ed51c1, type: 3}
+  reactor:
+  - {fileID: 8300000, guid: 3a5fb41c680eace408141a26e136945e, type: 3}
+  scrubber:
+  - {fileID: 8300000, guid: 5f7242d138af566428b84ea99675b8e8, type: 3}
+  toilet: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 192252}
+  m_IsPrefabParent: 1

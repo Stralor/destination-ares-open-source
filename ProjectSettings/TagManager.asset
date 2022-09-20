@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameEvent
+  - Tooltip
+  - Char&Sys
+  - ShipObjectTree
+  - Pathing
+  - World
+  - Selectable
+  - Loading Bar
+  - Character
+  - Menu
+  - Obstacle
+  - Target
+  - Connection
+  - Space
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Obstacle
+  - Module
+  - ModuleEdge
+  - System
+  - Hull Art
+  - Opening
+  - MainConnection
+  - Raycast Only
+  - Spaces
+  - Ping
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Systems
+    uniqueID: 3298785669
+    locked: 0
+  - name: Characters
+    uniqueID: 1803494443
+    locked: 0
+  - name: Pop Ups
+    uniqueID: 3836575615
+    locked: 0

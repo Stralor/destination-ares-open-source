@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: ENDING 4 (AI Sabo)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 51b1cd5068085a0489a81b0be40729bd, type: 2}
+  - {fileID: 11400000, guid: 9e02f69ffbee59e49a7b1d74c44408f2, type: 2}
+  minimumResult: 1
+  chances: 1
+  eventText: '"*S*! EMP astern!"
+
+
+    A few systems go dark. Your neural net is collapsing!
+
+
+    Apparently the Terran saboteur hid a few final devices. Pulses hit locations around
+    the ship. Life support and flight are down.
+
+
+    Without a stable orbit, the ship will lose altitude and crash. The crew might
+    not last that long. You signal evacuation, though some alarms aren''t working.
+    Soon after, a makeshift lifeboat blasts off, careening you on a more dire course.
+    The crew might make it.
+
+
+    Your fate, however, is sealed.
+
+
+    (ending 5/6 - sabotaged)'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5335d214ab943bd408fc286f432aad5c, type: 2}
+        m_MethodName: ChangeGameResultText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Crashed Redside
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 3a5dd8db2efe0a84c9495c42a34ba007, type: 2}
+  unlockAchievements:
+  - {fileID: 11400000, guid: 1e2d88fbcb3159b48a002604c93a1edb, type: 2}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Not as Bad
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements:
+  - {fileID: 11400000, guid: 03c77f340ffbc8945b0be23699c61d46, type: 2}
+  - {fileID: 11400000, guid: 1045dbf83cefc3e47bc4f8f0cfb378e5, type: 2}
+  minimumResult: 1
+  chances: 1
+  eventText: The solar flare hit... and mostly left without incident. Some energy
+    was drained, a few systems may have turned off, a bit of food ought to be thrown
+    out, but things are largely in the clear.
+  effects:
+  - {fileID: 11400000, guid: 24a6279887f1f704da834560b7b2fe39, type: 2}
+  - {fileID: 11400000, guid: a1a4ba0fba1c2b94d93aaf63aa3142cb, type: 2}
+  - {fileID: 11400000, guid: b3c35592cd84d2744b412f711946cfe0, type: 2}
+  - {fileID: 11400000, guid: 260794a3edd61bd458cc1a4ecb562974, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

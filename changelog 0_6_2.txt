@@ -1,0 +1,35 @@
+[*] Added strained animation when system is both strained and in overdrive
+[*] Fixed overdriven systems being enabled and repaired on load
+[*] Fixed negative momentum ending the game
+[*] Increased animation speed for engines and waste cannons while the injector's effect is active
+[*] Added added injection effect to system tooltips when relevant
+[*] Changed a bunch of events that required engines to also allow waste cannons
+[*] Added a Standard event: "Puketastic"
+[*] Fixed minor typo in opening story
+[*] Fixed a Story event that was mislabelled as "Unknown"
+[*] Changed Gyms into [Passive] systems, seeing as there's no reason to turn them off (for all the cruel AIs out there: you can still use ignore alerts if you want your crew to neither use nor repair gyms)
+[*] Changed Toilets into [Passive] systems, for the same reason as Gyms
+[*] Increased effect of lost progress on event kindness
+[*] Fixed event kindness so it increases as you have fewer resources compared to storage capacity
+[*] Added successful events as a reduction on event kindness
+[*] Added living crew as a reduction on event kindness
+[*] Increased effect of broken systems on event kindness
+[*] Fixed VFX from upgrading to Unity 5.6.1p1
+[*] Changed Use alerts so they can turn on systems (fewer clicks ftw)
+[*] Fixed Overdrive commands so they always turn on systems, if not already on
+[*] Overdrive now automatically turns off when system turns off
+[*] Rephrased a sentence in the Tutorial (This will probably be moot after I replace the tutorial)
+[*] Now recolor system borders when you highlight resources. This should make it faster and easier to see what systems are involved with what resources
+[*] Fixed mouse pings so they still always appear on main menu
+[*] Added CRT effects to main menu and ship building
+[*] Changed menu button colors (because I felt like it)
+[*] Fixed an outline-related crash
+[*] Fixed a crash from invalid crew heal attempts (and a few other potential causes)
+[*] Fixed bug that gave out free Fireball achievement on some failed runs (oops)
+[*] Fixed bug that delayed some system audios
+[*] Reduced volume of Generator audio
+[*] Flipped direction of time loss penalty animation in minigame
+[*] Added short animation to end of minigame
+[*] Fixed rare bug that prevented the minigame from ending
+[*] Added game speed controls to the HUD
+[*] Added controls for flipping between Crew or Systems on top

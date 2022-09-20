@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Flood
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements:
+  - {fileID: 11400000, guid: 72e838ac0dd623a4a9166ff66d268f7b, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: The water pipes in the Kitchen burst. The whole room is quickly becoming
+    a giant ball of water.
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 7e265e62d34810f45a0a78e09eb1cd5d, type: 2}
+  - {fileID: 11400000, guid: 866fd83634bc4e14eb2009e8a7531972, type: 2}
+  - {fileID: 11400000, guid: decf6c9a107fe39409e8f1631257e932, type: 2}
+  unlockAchievements: []

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Do Something
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Fix it.
+  minigameDifficulty: 0
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: 843f2b6d020a63541afe489fea30134f, type: 2}
+  - {fileID: 11400000, guid: fa467b1b8b8ff484aa47df972eac32e3, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 2c396aa7a020b2f4bad6d7a38702fb81, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: 437bce450fa14bc46ba1e2ad29301077, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Discharge
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Preemptively discharge electricity.
+  minigameDifficulty: 2
+  hideIfUnavailable: 0
+  requirements: []
+  effects:
+  - {fileID: 11400000, guid: a1a4ba0fba1c2b94d93aaf63aa3142cb, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: 5803922f290ac7a4cb2ec59b246a18da, type: 2}
+  - {fileID: 11400000, guid: 83a8eda7c4c170c4687f58093ceb9d28, type: 2}
+  - {fileID: 11400000, guid: d5e8b00f5477ca44495ccd99d1434ede, type: 2}

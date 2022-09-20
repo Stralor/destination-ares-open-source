@@ -1,0 +1,54 @@
+This update is significant in some fundamental parts of the code. It will break any in-progress runs.
+
+[h1]Difficulty Options, for the less masochistic[/h1]
+(Note: you still qualify for achievements while using these)
+[*] Resource Drain - High (Default), Low
+[*] Crew Skill - Untrained (Default), Skilled, Expert
+[*] Luck - Even (Default), Improved
+[*] Minigame Toggle (hotly demanded!)
+
+[h1]System Construction & Salvage[/h1]
+[*] Build makeshift systems when everything goes wrong! (Uses Science skill)
+[*] Break down old systems for a few materials and parts! (Uses Mechanical skill)
+
+[h1]New Events - what could go wrong?[/h1]
+[*] Free a crewmember from the jaws of the toilet's suction piece
+[*] Flood the atmos with vaporized fuel when the air pressure is low
+[*] Turn an old corpse into something useful
+[*] Use solar arrays as a shield from micrometeoroids
+[*] Push a faulty fabricator to consume everything onboard or die trying
+[*] Receive a definitely innocent memo from GuideBot
+
+[h1]Fixes, Improvements, and Wildly Incoherent Changes[/h1]
+[*] Started up minigame tutorial sooner
+[*] Sped up minigame tutorial
+[*] Made GuideBot harass you more often with snarky tips
+[*] "Broken" tooltip text now red
+[*] Overhauled event data structure internally
+[*] Updated dev tools
+[*] Unlocked all crew personalities from the beginning of the game; I apologize in advance if you roll a Chatty crewmember
+[*] Fixed - Crew sometimes abandoned ship secretly when they were supposed to die, were listed as "Survived"
+[*] "Pause" now slows the game to 1/500 speed, rather than perfect 0
+[*] Added a second way to enter the path to the secret ending
+[*] Some hard to press buttons are now, you know, easier to press
+[*] Your hidden AI core more consistently consumes energy (every 10 seconds)
+[*] Command skill is now more effective at preventing that passive energy drain, with the same diminishing returns
+[*] Base crew resilience to stress is lowered, but more consistent
+[*] Command skill increases stress resilience for all crew - so long as the crewmember(s) with the skill are capable of doing work
+[*] (No changes to bonus minigame time from Command skill)
+[*] Crew need to eat slightly more food and sleep slightly longer
+[*] Special crew with increased resilience to needs (i.e., the "skilled engineer" and "famous scientist") eat a little less and sleep faster, in addition to less often
+[*] The "wealthy doctor" gets a bonus point in Command
+[*] Choosing "high quality system retrofits" does more, including handing out keywords
+[*] Achievements should no longer unlock early
+
+Known Bugs
+[*] Rarely dead crew continue moving for awhile, drifting about the ship and/or swinging arms (definitely won't fix)
+
+IN PROG
+I set some breakpoints on trouble achievements, hoping to catch one or two during other testing to get free insight. Also added them on "survived" calls in case I missed one of the crew jumping ship
+
+TODO
+Testing
+Bugfixes
+Helm flickering animation during state changes

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Release neutral gases
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Release neutral gases from compression tanks.
+  minigameDifficulty: 2
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: b3ad2ac522b8a5241989f7be8bc3fa1d, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 7212403ec2611c84498f510249e257d1, type: 2}
+  - {fileID: 11400000, guid: 796679e37f8472748b591c400dc653a8, type: 2}
+  - {fileID: 11400000, guid: 07a824729b19bc0458acb1c716675e40, type: 2}

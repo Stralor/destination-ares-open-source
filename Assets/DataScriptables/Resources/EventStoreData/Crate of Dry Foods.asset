@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Crate of Dry Foods
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000004000000
+  requirements: []
+  minimumResult: 1
+  chances: 1
+  eventText: 'Crackers, bars, and peanut butter. Lots of peanut butter. Stupid amounts
+    of peanut butter.
+
+
+    "You know, *S*, not all paste evens. This here beats anything you''ve made," says
+    *T* with a glint in their eye.'
+  effects:
+  - {fileID: 11400000, guid: 0e5c8d2565dea224c8a80d5ad54c2b91, type: 2}
+  - {fileID: 11400000, guid: 336efa1605cd3514a85704aadd69ae36, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options: []
+  unlockAchievements: []

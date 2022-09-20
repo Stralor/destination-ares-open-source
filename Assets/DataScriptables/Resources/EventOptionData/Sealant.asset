@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Sealant
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Send sealant down the fuel lines to clog the leak from within.
+  minigameDifficulty: 2
+  hideIfUnavailable: 0
+  requirements: []
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 1af1ec2c58b0b62468b96ed81e219b83, type: 2}
+  - {fileID: 11400000, guid: abc381e7c844d9d41906a0a7715bcbdb, type: 2}
+  - {fileID: 11400000, guid: 5a233de15b1929247bcd2022376b21c2, type: 2}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Radar Blip
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements:
+  - {fileID: 11400000, guid: 9c437969d0d298940a00e6b6dc4d7e70, type: 2}
+  minimumResult: 0
+  chances: 2
+  eventText: That faulty *T* is reporting a large object some distance ahead. If it's
+    to be believed, the ship is heading straight for the object, and the distance
+    is closing rapidly.
+  effects:
+  - {fileID: 11400000, guid: c5c60087cce7f054da07f36feace6950, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 4f7a290b4234df348aa910a84b09fd5e, type: 2}
+  - {fileID: 11400000, guid: 15527ea89cc7cc04fb8756a9ec7c923f, type: 2}
+  - {fileID: 11400000, guid: a37ce17bfcd1ddf43a380d86955b95a2, type: 2}
+  unlockAchievements: []

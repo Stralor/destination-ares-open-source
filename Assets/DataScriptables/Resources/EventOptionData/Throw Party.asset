@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Throw Party
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Convince the crew to have a feast.
+  minigameDifficulty: 2
+  hideIfUnavailable: 1
+  requirements:
+  - {fileID: 11400000, guid: c7a45d66894f9604b9c2a7aee18b3314, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: aff3bf25229015c44a764e167293aa59, type: 2}
+  - {fileID: 11400000, guid: 692255f10848a55498ec4db0c81db40f, type: 2}
+  - {fileID: 11400000, guid: 98b1305c557177b4ea8446f89e4ad2a9, type: 2}

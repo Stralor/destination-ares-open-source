@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: OPT Keep sucking!
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Keep sucking!
+  minigameDifficulty: 3
+  hideIfUnavailable: 0
+  requirements: []
+  effects:
+  - {fileID: 11400000, guid: d50411fd6d8ec5247aa0bb4fa22b3d40, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: b8925a05c61111e4a904906cf129e4bf, type: 2}
+  - {fileID: 11400000, guid: 7ced52e03b5693041b263c11a664f58c, type: 2}
+  - {fileID: 11400000, guid: 424afb63a6dc453419a4086cdacd0af3, type: 2}

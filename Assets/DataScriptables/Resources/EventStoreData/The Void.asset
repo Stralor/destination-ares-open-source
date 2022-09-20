@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: The Void
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: The deep void of space looms ominously all around. You can feel it through
+    your sensors and see in the eyes of the crew. What waits for you out there?
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 76ed2cc131ddb8b4ea48b76d5bc6601b, type: 2}
+  - {fileID: 11400000, guid: 5d5b081796198c84d9fc0a725623e445, type: 2}
+  - {fileID: 11400000, guid: e233b991e5417a74ab71e907b60747fc, type: 2}
+  - {fileID: 11400000, guid: 6a4ddbd83cbee8942a32f5482fb7cb4f, type: 2}
+  unlockAchievements: []

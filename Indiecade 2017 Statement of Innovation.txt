@@ -1,0 +1,19 @@
+Destination Ares is built around two foci:
+ • The realism of a harrowing journey, brought to its natural absurdity
+and,
+ • The huge artistic and literary traditions we've built up around early interplanetary travel
+
+Both foci come together to create an experience essentially rooted in the psyche. It's an experience intentionally dissociative, foreign in perspective, and unique in method. Yet it speaks to something more integral to the human experience than would be expected; it's a tale of being born into unasked-for responsibility, futility of effort, and ultimate demise that is so essential to the human experience that it's hard to imagine the AI as anything but real.
+
+Deep sims (even those with simple interfaces) aren't new. They tend to fall into two camps: the totally deterministic and the wildly random. The first camp (the totally deterministic) consists of games that always play the same way given the same inputs. They're machines, toys; though impressive for their depth and potential emergence. The second camp (the wildly random) are built on a series of rolls and chance events, which results in emergence when encountered by the player's deterministic motes. The player, however, can only influence outcomes through control of the motes as units. 
+
+Destination Ares seeks a third way, built upon both camps. The player is removed further from granular unit control and given more agency of the nonviolent environment. This isn't the only change, however. The biggest change is arguably the event minigame: a skill-based response to chance that isn't tied to the deterministic dials and switches of the first two camps.
+
+Finally, Destination Ares takes artistic inspiration, and then diverges, from three sources:
+ • the dark realism of serious space titles
+ • "retro" minimalist, artifacted arcade graphics
+ • the cartoonization and abstraction found in it's sim peers
+
+As such, the game uses a new form called "modified pixel art", which throws away the assumption that a single pixel must be completely uniform in hue, saturation, and value across its area. Subverting this assumption allows a grittier texture to the sprites and the whole frame, harkening to the dark realism so prevalent in both contemporary AAA titles and in serious space games. It also allows for more definition and character in a smaller space, pushing the minimalism and abstraction found in both other contemporary sims and retro graphics.
+
+This blend is intended to tap back into the two main foci: the dark, gritty fantasy of the psyche found in artistic tradition is crossed with the sometimes humorous (and often painful) absurdity of reality.

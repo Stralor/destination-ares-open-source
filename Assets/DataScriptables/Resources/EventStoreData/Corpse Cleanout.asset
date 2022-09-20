@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Corpse Cleanout
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 04000000
+  requirements:
+  - {fileID: 11400000, guid: f336ace134dbf8342ae4fbc27052f2bb, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: 'You see very little use for dead crew, and, mostly, keeping one around
+    seems like a risk to the crew''s health and wellbeing.
+
+
+    It''s time to get
+    rid of *T*''s corpse.'
+  effects:
+  - {fileID: 11400000, guid: c792dac18b5cfa243b03cfdf3c6af963, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options:
+  - {fileID: 11400000, guid: deaf990c9c961ed49ba9010329590f7f, type: 2}
+  - {fileID: 11400000, guid: 16c9624d44ecf364fa80e9aa1c09e782, type: 2}
+  - {fileID: 11400000, guid: d45b8bede942ad048ad04cec7e309f4e, type: 2}
+  - {fileID: 11400000, guid: 357f6c13d791c3340a87aae804e77987, type: 2}
+  unlockAchievements: []

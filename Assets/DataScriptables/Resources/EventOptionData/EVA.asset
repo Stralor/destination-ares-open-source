@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: EVA
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Authorize an EVA to do repairs.
+  minigameDifficulty: 0
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: 8ae018ad99e37e249b5aa74547bad76e, type: 2}
+  - {fileID: 11400000, guid: 4d005c256cbad184fb04b98fb3b293f0, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: f95d4ca8a72f9e6409d11f18b0596e55, type: 2}
+  - {fileID: 11400000, guid: 1dffaf1cac3752446a80849aad7386ba, type: 2}

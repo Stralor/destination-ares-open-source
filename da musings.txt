@@ -1,0 +1,12 @@
+difficulty:
+- turn off power surge damage / AI energy drain
+- rate of events
+- rate of helpful events
+- odds of success in random?
+- rate of energy burn from scrubber + radar + ?
+- storage degradation / system degradation
+- character skills
+
+minigame:
+- pay energy to skip
+- can turn off entirely (uses random; more difficult)

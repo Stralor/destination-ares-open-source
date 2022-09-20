@@ -1,0 +1,41 @@
+New Events
+[*] (Helpful) Critical Systems Repair: a chance to fix something destroyed or broken that you absolutely need to succeed
+[*] (Helpful) Gained Experience: a chance to level up the crew or systems
+[*] [SECRET] A Dark Truth: a shift in priorities
+[*] (Standard) Hungry Crew
+[*] (Standard) Electrical Surge
+
+New Secret Achievements
+[*] "A Dark Truth"
+[*] "Rigged and Armed"
+[*] "Glitched Understanding"
+
+Polish
+[*] Added custom victory results other than "Reached Destination"
+[*] More fading, always more fading
+
+Balance Changes
+[*] Reduced how quickly crew pass out from exhaustion, and how that affects their stress levels
+[*] Also reduced odds of passing out from an accident (side effect: increased odds of being injured instead)
+[*] Increased negative effects and possible results in Puketastic event
+[*] Trimmed event timing to be a bit more accurate
+[*] Events that feed crew are now more effective
+
+Fixes
+[*] Character chatter that's all punctuation should once again show properly
+[*] Game Over stats will set its correct height
+[*] Achievement popups will actually stay on screen for a couple seconds
+[*] Other minor things
+
+Steam Trading Cards Added
+[*] 13 Cards; resources from the game
+[*] 10 Backgrounds (4 common, 3 uncommon, 3 rare)
+[*] 10 Emoticons (4 common, 3 uncommon, 3 rare)
+[*] Oh, and some cheeky badges. I hear you like those
+
+~~ Also included: ~~
+
+v0.9.1 (Hotfix)
+[*] Fixed a crash
+[*] Smoothed text chunk typing
+[*] Colorized in-event dialogue

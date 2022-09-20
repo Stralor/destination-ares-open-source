@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: GOOD RADAR
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Prioritize shutting down systems.
+  minigameDifficulty: 2
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: 44765bb7be8b2a849bfac29d500f83d9, type: 2}
+  effects:
+  - {fileID: 11400000, guid: c58948bb0f97ff64988076e56d23cc2b, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: 7ffb0af1547e5c34a960ffb4251e6d17, type: 2}
+  - {fileID: 11400000, guid: 158e75099fac81543b24d65df8d99588, type: 2}
+  - {fileID: 11400000, guid: 1ea09ad559016e14fa6f90071168ba36, type: 2}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb3a485678acc847879b3c2c8289b8e, type: 3}
+  m_Name: Industrial Strength Sleeve-Catcher
+  m_EditorClassIdentifier: 
+  achievementID: CAUGHT_IN_MACHINE
+  achievedArt: {fileID: 21300000, guid: dbd17727ca1b12f48a5a5c7bfede1c61, type: 3}
+  description: Have a crew member die after making a mistake repairing a system.
+  unlockPoints: 20

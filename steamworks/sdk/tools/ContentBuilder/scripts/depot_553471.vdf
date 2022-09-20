@@ -1,0 +1,12 @@
+"DepotBuildConfig"
+{
+	"DepotID" "553471"
+	"contentroot" "C:\Users\Fengshua\Documents\Creative Projects\Games\steamworks_sdk_138a\sdk\tools\ContentBuilder\content"
+	"FileMapping"
+	{
+		"LocalPath" "*"
+		"DepotPath" "."
+		"recursive" "1"
+	}
+	"FileExclusion" "*.pdb"
+}

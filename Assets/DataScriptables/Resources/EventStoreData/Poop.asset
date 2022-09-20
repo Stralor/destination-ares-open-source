@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Poop
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 02000000
+  requirements:
+  - {fileID: 11400000, guid: d1501ad7b9ac1e640a5ac3ea51d0724c, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: 'You''re not sure if a crew member avoided using the toilet (apparently
+    space toilets are complicated), a waste line backed up, or it''s time for biological
+    warfare.
+
+
+    Feces. Sticking. Floating. Everywhere.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 78305b7ffda0f8047bdf960ec1d2d39b, type: 2}
+  - {fileID: 11400000, guid: 00ba8ab6df3b15f45923652a8264d582, type: 2}
+  unlockAchievements: []

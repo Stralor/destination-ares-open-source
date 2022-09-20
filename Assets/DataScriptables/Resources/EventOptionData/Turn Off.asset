@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Turn Off
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Turn off everything.
+  minigameDifficulty: 1
+  hideIfUnavailable: 0
+  requirements: []
+  effects:
+  - {fileID: 11400000, guid: c58948bb0f97ff64988076e56d23cc2b, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: 98ee502e80586dc46b848ae63f2ae911, type: 2}
+  - {fileID: 11400000, guid: 91875ee07f708ef4e92507e73a87c6dc, type: 2}

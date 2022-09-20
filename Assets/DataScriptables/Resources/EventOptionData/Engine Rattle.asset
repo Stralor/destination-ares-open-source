@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Engine Rattle
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: The rattling of the engines is causing weird acceleration shifts.
+  minigameDifficulty: 0
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: 237e9b2e507ac06498e3a08257f8816e, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 33aaaa71b900fe64c8c6be130de231a2, type: 2}
+  - {fileID: 11400000, guid: 08445ed5239165746b0ba7d637b8f1b2, type: 2}
+  - {fileID: 11400000, guid: deb61bd66ac83b44b9dc57d265b861e3, type: 2}

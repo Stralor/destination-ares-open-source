@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Find Fault
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Analyze electrics, send crew to the worst fault.
+  minigameDifficulty: 3
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: 883cfa0eb9bb51e40b29faa490c24be0, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 7e349e2c77b69044fbcf4313db573882, type: 2}
+  - {fileID: 11400000, guid: c44fd657c045793469c7c76e4d71d0db, type: 2}
+  - {fileID: 11400000, guid: 12c2c3836be328d4f946da15d7b870ee, type: 2}

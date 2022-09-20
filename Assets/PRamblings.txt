@@ -1,0 +1,21 @@
+Take in event
+throw away <
+read in token, store as title
+read in string store as event text
+read in token store effect
+read in float chance of effect
+read in tokens til ; or + or <> store list of things effects
+
+switch 
+; - then 
+read in token store effect
+read in float chance of effect
+read in tokens til ; or + or <> store 
+
++ - option code
+
+< - look for option thats been build
+
+> - ends
+
+option 

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Jettison
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Jettison waste to change trajectory.
+  minigameDifficulty: 2
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: d1501ad7b9ac1e640a5ac3ea51d0724c, type: 2}
+  effects:
+  - {fileID: 11400000, guid: b37b3e5a2d3ec8b4591c664b93313242, type: 2}
+  nextEventChances:
+  - {fileID: 11400000, guid: 08ee126e506f163418f55ff575c5558b, type: 2}
+  - {fileID: 11400000, guid: 1d85a7beb57453347817abc910db1213, type: 2}
+  - {fileID: 11400000, guid: 22446ec80df9bb046847feed92e4b60e, type: 2}

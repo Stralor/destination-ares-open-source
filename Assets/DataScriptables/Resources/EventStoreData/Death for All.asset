@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Death for All
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 05000000
+  requirements:
+  - {fileID: 11400000, guid: 0c50d5fc14b769244919fabd3aab4219, type: 2}
+  - {fileID: 11400000, guid: b80f853cbcf898841abe5c7743c9057c, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: 'They''re all dead.
+
+
+    Slowly, their eyes fade to white and their bodies bloat, drifting about like balloons
+    lost at a parade.
+
+
+    A nagging sensation in your mind grows over days and weeks. Before long, it becomes
+    a Darkness indistinguishable from the one outside.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: ce86fb7933a6c4146aa3e9f662300843, type: 2}
+  unlockAchievements: []

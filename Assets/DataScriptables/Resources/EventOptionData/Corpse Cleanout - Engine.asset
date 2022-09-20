@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Corpse Cleanout - Engine
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Guide it to an intake in the propulsion system.
+  minigameDifficulty: 1
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: 6d2d86da24eb6284585566ac8d28f9b7, type: 2}
+  - {fileID: 11400000, guid: 237e9b2e507ac06498e3a08257f8816e, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 5f76b229238b7214080e128110e25df2, type: 2}
+  - {fileID: 11400000, guid: 2d48117384936c744bc218fdb3f21538, type: 2}
+  - {fileID: 11400000, guid: b7631ff6ca806eb4682a244dcf973c5e, type: 2}
+  - {fileID: 11400000, guid: 314af76b69c093746a4ea67756f7b0d2, type: 2}

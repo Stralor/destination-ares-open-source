@@ -1,0 +1,31 @@
+0.6.0a (I originally shadow-released this fix without notes)
+[*] Fixed the victory achievements so they don't trigger from the tutorial
+
+0.6.1
+[*] Upgraded to Unity 5.6
+[*] Fixed crashes from not letting the Steam Manager boot up (shouldn't have affected players)
+[*] Fixed crew body parts overlapping inconsistently. Now when crew overlap, it's all or nothing
+[*] Changed disabled buttons that say "Inert System" to say "Passive System", to match a terminology change last patch
+[*] Increased UI SFX a bit
+[*] Added a type header to the event pop up, in addition to the border coloring
+[*] Fixed bug where audio wouldn't play occasionally
+[*] Added an easier and faster build pipeline. It took a while to set up, but now updates will push out much more easily
+[*] Adjusted Food tooltip so it's more clear that a Kitchen is required for the crew to consume — not create — food
+[*] Added crew portraits in ship building
+[*] Added menu selection responsiveness to crew portraits
+[*] Fixed hydroponics system portrait: it has its outline!
+[*] Added system keyword: Hardened — +2 Durability when overdriven
+[*] Added system keyword: Performant — +2 Output when overdriven
+[*] Changed how overdrive works: it stays on when the system takes damage and becomes Strained, and it can be turned on at Strained
+[*] Changed ship building so you can only add one keyword to a system. Note: old ship designs retain the second keyword (if you put one)... but you can no longer change it
+[*] Added a delay between songs, music should no longer be constant
+[*] Fixed the minigame clock beep being a constant tone (whoops!)
+[*] Removed current and effective speed numbers when tooltips set to "Simple"
+[*] Reduced constant bleating of alarms. "Supposed to be annoying" got too annoying
+[*] Reduced the volume of Warning alarms
+[*] Changed alarm SFX to diegetic. This also happens to make them all quieter
+[*] Fixed error in menu screen that prevented hungry and dead mouths from appearing
+[*] Fixed resource icons jumping about on creation
+[*] Added wave effect when someone/ something takes damage. Its bigger for more significant things, like dying
+
+One side note: I'm changing my numbering system to simple increments. It means bugfix-only patches won't be as apparent. However, it's easier to manage and keep consistent (each build is either a minor or major increment!).

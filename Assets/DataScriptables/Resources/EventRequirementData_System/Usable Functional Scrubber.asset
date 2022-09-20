@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6316523f4d316694ab8e3e646bc04e8d, type: 3}
+  m_Name: Usable Functional Scrubber
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  hiddenRequirement: 0
+  invertRequirements: 0
+  systemsRequired: 1
+  system: 01000000
+  systemCondition: 00000000
+  systemStatus: 000000000100000002000000
+  systemQuality: 
+  systemKeyword: 

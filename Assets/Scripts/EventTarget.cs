@@ -1,0 +1,36 @@
+﻿public enum EventTarget
+{
+	System,
+	Engine,
+	Scrubber,
+	Character,
+	Engineer,
+	NonInertSystem,
+	EachSystem,
+	EachCharacter,
+	Scientist,
+	Medical,
+	Battery,
+	Bed,
+	Electrolyser,
+	Fabricator,
+	Gym,
+	Helm,
+	Hydroponics,
+	Injector,
+	Kitchen,
+	Processor,
+	Radar,
+	Reactor,
+	Still,
+	Storage,
+	Toilet,
+	Communications,
+	WasteCannon,
+	FuelCell,
+	Solar,
+	Sail,
+	GuideBot
+
+	//PLEASE UPDATE EventEffect WHEN ADDING TO THIS LIST
+}

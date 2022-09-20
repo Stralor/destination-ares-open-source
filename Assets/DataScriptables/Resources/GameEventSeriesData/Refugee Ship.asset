@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d10890ff6a0f3ee4db176847ac67146b, type: 3}
+  m_Name: Refugee Ship
+  m_EditorClassIdentifier: 
+  storyName: Refugee Ship
+  eventsInOrder:
+  - {fileID: 11400000, guid: 22b3d5e19b9cdf44a97ced90c095c814, type: 2}
+  - {fileID: 11400000, guid: a5a25492ca936d746a01bff9c679f6a6, type: 2}
+  - {fileID: 11400000, guid: 2b2fa585db6cf1c44a00962c73360955, type: 2}
+  - {fileID: 11400000, guid: 636657b12d9692c4ebe571cc5ed7dfcc, type: 2}
+  - {fileID: 11400000, guid: 27fe4afea88c2c04180dfcf8d031b464, type: 2}
+  eventController: {fileID: 11400000, guid: 5335d214ab943bd408fc286f432aad5c, type: 2}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Micrometeoroids - Speed - Took a Beating
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000002000000
+  requirements: []
+  minimumResult: 0
+  chances: 1
+  eventText: 'The propulsion systems are pushed to the max, and largely burn out
+    before long.
+
+
+    Then, thanks to the new speed, the ship takes a beating. Punctures
+    pop up everywhere, and a few systems get shot clean through. You dump as much
+    sealant as you can just about everywhere.'
+  effects:
+  - {fileID: 11400000, guid: 28886084d68732e45b7d88b1f07541a1, type: 2}
+  - {fileID: 11400000, guid: b0573e46edffc7c4483e5cfb6bf2f7a3, type: 2}
+  - {fileID: 11400000, guid: 3e1ce054c2e581c44a9652942b2f977d, type: 2}
+  - {fileID: 11400000, guid: 5b840b3c1c5d1a64c960fe00830edc89, type: 2}
+  - {fileID: 11400000, guid: 1c264c77160d09048a31c2851114cc5f, type: 2}
+  - {fileID: 11400000, guid: 6ea22a4d94a08104d9dfb9f220ccaab3, type: 2}
+  - {fileID: 11400000, guid: 2e76d1cf98f15f54b9fd2c7ee0287783, type: 2}
+  - {fileID: 11400000, guid: 67e27251449927041b360e1a34696f4d, type: 2}
+  - {fileID: 11400000, guid: 0c3c6680c1b8d044faaa454d2b711736, type: 2}
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  options: []
+  unlockAchievements: []

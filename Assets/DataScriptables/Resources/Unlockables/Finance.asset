@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ace4845bd479946869c109addf9f09, type: 3}
+  m_Name: Finance
+  m_EditorClassIdentifier: 
+  keyUnlocked: {fileID: 11400000, guid: 5ece3b864a94b9c44a3c3608eb0a9387, type: 2}
+  colorName: blue0
+  unlocksPersonality: 0
+  unlocksRole: 0
+  unlocksKeyword: 0
+  personality: 4
+  role: 0
+  keyword: 0
+  tooltipText: '100 Assets
+
+
+    Color: Deep Blue'

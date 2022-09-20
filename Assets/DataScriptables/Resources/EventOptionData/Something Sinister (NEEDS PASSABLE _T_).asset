@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Something Sinister (NEEDS PASSABLE _T_)
+  m_EditorClassIdentifier: 
+  isUsable: 0
+  optionText: Something worse is afoot.
+  minigameDifficulty: 0
+  hideIfUnavailable: 1
+  requirements: []
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: 2ba58bd590989b048855f936df020f4b, type: 2}
+  - {fileID: 11400000, guid: 8275f9a77af1b98479d417b2a6b3e553, type: 2}

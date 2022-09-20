@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Euphoria Never Hurt
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: The crew needs a little euphoria once in a while. Let it play out.
+  minigameDifficulty: 0
+  hideIfUnavailable: 0
+  requirements: []
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: cd45017287274624299c88e4dbbc9137, type: 2}
+  - {fileID: 11400000, guid: f65fba075faeb154a940b5eb456f0d6e, type: 2}
+  - {fileID: 11400000, guid: c81615d306fdfe54abb1e47c0f6d643f, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: 0e (Renowned Fail)
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 0100000003000000
+  requirements:
+  - {fileID: 11400000, guid: 1e36e1873bf4e484997d42418ed2b9dc, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: 'The chittering is the sound of a loose part of the hull flapping from
+    wind rushing out. A micropuncture is sucking precious air into space.
+
+
+    That''s right, you have a tiny hull breach, but it''s going to grow if you don''t
+    take care of it. So far it has barely managed to affect the air pressure.'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 353c6b096c7ef5348a8203211868e1df, type: 2}
+  - {fileID: 11400000, guid: 891ddace2c4c541498213fc49ab48ce6, type: 2}
+  - {fileID: 11400000, guid: 9ba87ea7584d6914b870072fa2d5e085, type: 2}
+  unlockAchievements: []

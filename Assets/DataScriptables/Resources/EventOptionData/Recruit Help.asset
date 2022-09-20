@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89c54a948509dc4d8d082d3e68f0e8e, type: 3}
+  m_Name: Recruit Help
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  optionText: Recruit help from the crew.
+  minigameDifficulty: 1
+  hideIfUnavailable: 0
+  requirements:
+  - {fileID: 11400000, guid: fa467b1b8b8ff484aa47df972eac32e3, type: 2}
+  effects: []
+  nextEventChances:
+  - {fileID: 11400000, guid: aa8727cbb9f9e7943824347a560f9019, type: 2}
+  - {fileID: 11400000, guid: 55e9b455efb8fe040b324de51522e983, type: 2}
+  - {fileID: 11400000, guid: 89e5aadc27e25304b91bd5ddbd8383ea, type: 2}

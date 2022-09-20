@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be3238434defa794aa55abf602e288b5, type: 3}
+  m_Name: Repair Critical or Destroyed
+  m_EditorClassIdentifier: 
+  isUsable: 1
+  unique: 0
+  conditions: 04000000
+  requirements:
+  - {fileID: 11400000, guid: 9e0274d657528b44ba8d5abf8b8f6ac4, type: 2}
+  minimumResult: 0
+  chances: 1
+  eventText: 'A routine system diagnostic pings back with more fervor than expected.
+    A broken system has come back online.
+
+
+    Maybe the ship will get through this yet.
+
+
+    What''s working?'
+  effects: []
+  onActivate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  options:
+  - {fileID: 11400000, guid: 78e695adcbaffe44db5139a73ef501fe, type: 2}
+  - {fileID: 11400000, guid: 0e5b22ea8892b9841a4192d90a776314, type: 2}
+  - {fileID: 11400000, guid: 293f548877198a94ca500848242c93ca, type: 2}
+  - {fileID: 11400000, guid: 73922835454bdd44b9b5cddd45d99b7c, type: 2}
+  - {fileID: 11400000, guid: 844575944fb87be47878971eff669cf3, type: 2}
+  - {fileID: 11400000, guid: 3c914ef6e5193aa4a85a6d784fa6843f, type: 2}
+  - {fileID: 11400000, guid: e6f9b1525ebe2f441ac7d91707bf78d1, type: 2}
+  - {fileID: 11400000, guid: b7517472b1a23644c94bb461b1354f95, type: 2}
+  unlockAchievements: []

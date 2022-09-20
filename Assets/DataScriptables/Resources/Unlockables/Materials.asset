@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ace4845bd479946869c109addf9f09, type: 3}
+  m_Name: Materials
+  m_EditorClassIdentifier: 
+  keyUnlocked: {fileID: 11400000, guid: b751072d0a8361f46856e6ed3defbf5c, type: 2}
+  colorName: red1
+  unlocksPersonality: 0
+  unlocksRole: 0
+  unlocksKeyword: 0
+  personality: 1
+  role: 0
+  keyword: 0
+  tooltipText: 'System: Sail
+
+
+    Stat: Mechanical
+
+
+    Color: Dark Red'
